@@ -3,37 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/slick/slick/slick.js">
-      $('.multiple').slick({
-        autoplay: true, //自動再生
-        infinite: true, //スライドのループ有効化
-        dots: true, //ドットのナビゲーションを表示
-        slidesToShow: 4, //表示するスライドの数
-        slidesToScroll: 4, //スクロールで切り替わるスライドの数
-        responsive: [{
-          breakpoint: 768, //ブレークポイントが768px
-          settings: {
-            slidesToShow: 3, //表示するスライドの数
-            slidesToScroll: 3, //スクロールで切り替わるスライドの数
-          }
-        }, {
-          breakpoint: 480, //ブレークポイントが480px
-          settings: {
-            slidesToShow: 2, //表示するスライドの数
-            slidesToScroll: 2, //スクロールで切り替わるスライドの数
-          }
-        }]
-      });
-    </script>
     <title>宮島ラーメンスクール｜Miyajima ramen school</title>
-    <link rel="stylesheet" href="./js/slick/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="./js/slick/slick/slick.css"/>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="/js/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="/js/slick/slick.css"/>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <header>
+    <div id="top">
+    <header id="header">
       <div class="header-split">
         <div class="header-above">
           <p>マンツーマンからグループレッスンまで。受講コース「Miyajima Ramen school 宮島ラーメンスクール」</p>
@@ -68,6 +46,7 @@
       </div>
     </header>
 
+    <div id="contents" class="contents">
     <div class="hero">
       <h1>
         <p>プロフェッショナルラーメンシェフ養成学校</p>
@@ -75,35 +54,36 @@
         <img src="./images/hero-title.png" alt="Miyajima Ramen school since2001">
       </h1>
       <div class="multiple">
-          <div class="slider-child">
+          <div>
             <img src="./images/ramen01.jpg" alt="ラーメン画像1">
             <p>HOUSE</p>
           </div>
-          <div class="slider-child">
+          <div>
             <img src="./images/ramen02.jpg" alt="ラーメン画像2">
             <p>MISO</p>
           </div>
-          <div class="slider-child">
+          <div  >
             <img src="./images/ramen03.jpg" alt="ラーメン画像3">
             <p>REIMEN</p>
           </div>
-          <div class="slider-child">
+          <div  >
             <img src="./images/ramen04.jpg" alt="ラーメン画像4">
             <p>GARLIC</p>
           </div>
-          <div class="slider-child">
+          <div  >
             <img src="./images/ramen05.jpg" alt="ラーメン画像5">
             <p>HAKATA</p>
           </div>
-          <div class="slider-child">
+          <div  >
             <img src="./images/ramen06.jpg" alt="ラーメン画像6">
             <p>TANTAN</p>
           </div>
       </div>
 
     </div>
+  </div><!-- /#contents -->
 
-    <footer>
+    <footer id="footer">
       <div class="footer-inner">
         <div class="footer-nav">
           <ul>
@@ -153,6 +133,9 @@
         </div>
       </div>
     </footer>
-
+  </div>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/slick/slick.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>

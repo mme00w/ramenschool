@@ -1,8 +1,62 @@
 @charset "UTF-8";
 
 
+/* ========================================
+    #header
+========================================= */
+
+#header div.header-split div.header-above{
+  width: 100%;
+  height:24px;
+  background-color: #ec635d;
+  padding:3px 0;
+}
+
+#header div.header-split div.header-above p{
+  margin-left:15px;
+  font-size: 12px;
+}
+
+header div.header-split div.header-bottom{
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0,0,0,3);
+  padding:0 19px 0 27px;
+  display: flex;
+}
+
+header div.header-split div.header-bottom figure{
+  padding-top: 5px;
+}
+
+div.header-bottom nav ul{
+  display: flex;
+}
+
+div.header-bottom nav ul li{
+  display:inline-block;
+}
+
+/* ========================================
+    #footer
+========================================= */
+
+/* ========================================
+    common
+========================================= */
 
 
 /* ========================================
-    .hero-bottom-slider-parent
+    #top
+========================================= */
+
+/* .hero-bottom-slider-parent */
+
+#top .contents .hero-bottom-slider-parent {
+
+}
+
+
+/* ========================================
+    #about
 ========================================= */
