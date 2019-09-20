@@ -1,0 +1,1 @@
+[9/20/2019, 4:52:13 PM] layer "voice1.png": Duplicate path: voice1.png
