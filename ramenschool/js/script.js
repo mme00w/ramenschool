@@ -1,9 +1,14 @@
 $(function(){
 
    $('.multiple').slick({
+     arrows:false,
       autoplay: true, //自動再生
+
       infinite: true, //スライドのループ有効化
-      dots: true, //ドットのナビゲーションを表示
+      dots: false, //ドットのナビゲーションを表示
+      autoplaySpeed: 0,
+   cssEase: 'linear',
+   speed: 10000,
       slidesToShow: 4, //表示するスライドの数
       slidesToScroll: 4, //スクロールで切り替わるスライドの数
       responsive: [{
@@ -20,9 +25,10 @@ $(function(){
         }
       }]
     });   $('.multiple').slick({
+      arrows:false,
       autoplay: true, //自動再生
       infinite: true, //スライドのループ有効化
-      dots: true, //ドットのナビゲーションを表示
+      dots: false, //ドットのナビゲーションを表示
       slidesToShow: 4, //表示するスライドの数
       slidesToScroll: 4, //スクロールで切り替わるスライドの数
       responsive: [{

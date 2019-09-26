@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 /* Slider */
+
+
 .slick-loading .slick-list
 {
     background: #fff url('./ajax-loader.gif') center center no-repeat;
@@ -204,7 +206,7 @@
 }
 
 .multiple { padding: 0;}
-.multiple img { width: 20%;}
+.multiple img { width: 100%;}
 .multiple div { margin: 0 5px;}
-.multiple .slick-next { right: 17px;　z-index: 100;}
-.multiple .slick-prev { left: 23px; z-index: 100;}
+/* .multiple .slick-next { right: 17px;　z-index: 100;}
+.multiple .slick-prev { left: 23px; z-index: 100;} */
