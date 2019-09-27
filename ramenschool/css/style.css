@@ -4,6 +4,11 @@
   position: relative;
 }
 
+#contents{
+  position: relative;
+  top: -70px;
+}
+
 /* ========================================
     #header
 ========================================= */
@@ -97,50 +102,405 @@ div.header-bottom .language a:first-child::after {
 ========================================= */
 .hero {
   width: 100%;
+  height:577px;
   margin: 0 auto;
-}
-
-h1 {
+  background: url(/images/hero.png)no-repeat center center;
+  background-size: cover;
   text-align: center;
+  position: relative;
+  margin-bottom:380px;
 }
 
-h1 .hero-title {
-  display: inline-block;
-}
-
-h1 .hero-title p {
+#top .hero h1 {
   display: inline-block;
   position: absolute;
-  top: 152px;
+  top: 129px;
   right: 0;
   left: 0;
   z-index: 999;
   font-size: 16px;
 }
 
-h1 .hero-title img {
+.hero .hero-title-img{
   display: inline-block;
-  position: relative;
-  top: 93px;
+  position: absolute;
+  top: 165px;
+  right:0;
+  left:0;
   z-index: 888;
 }
 
-h1 .hero-bg {
+/* ========================================
+    .the-school
+========================================= */
+
+.the-school{
   width: 100%;
-  display: inline-block;
-  object-fit: cover;
-  /* position: absolute; */
-  /* top:0; */
-  z-index: 777;
+  background: url(/images/school-bg.png)no-repeat center top;
+  background-size: cover;
+  padding:39px 0;
+  text-align: center;
 }
 
-h1 .hero-bg img {
+.the-school h3{
+  padding:42px 0 59px 0;
+  font-size: 40px;
+}
+
+
+
+/* ========================================
+    .instructor
+========================================= */
+.instructor{
+  width:100%;
+  height:433px;
+  background:url(/images/instructor-bg.png) no-repeat center top;
+  background-size: contain;
+  padding-top:135px;
+  /* padding:128px 0 100px 0; */
+  text-align: center;
+}
+
+.instructor h3{
+  padding:20px 0 80px 0;
+  font-size: 40px;
+}
+
+/* ========================================
+    .course
+========================================= */
+.course{
+  padding:40px 0 70px 0;
+  text-align: center;
+}
+
+.course h2{
+  padding-bottom:26px;
+}
+
+.course .inner h3{
+  padding:271px 0 34px 0;
+  width:48.63%;
+  font-size: 30px;
+  font-weight:normal;
+  object-fit: contain;
+}
+
+.course .inner h3:first-child{
+  background:url(/images/course01-bg.png) no-repeat center top;
+
+}
+
+.course .inner h3:last-child{
+  background:url(/images/course02-bg.png) no-repeat center top;
+
+}
+
+.inner{
+  display: flex;
+  justify-content: space-between;
+}
+/* ========================================
+    .banner
+========================================= */
+.banner{
   width: 100%;
+  margin-bottom: 60px;
+}
+
+.banner img{
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ========================================
+    .voice
+========================================= */
+.voice{
+  text-align: center;
+}
+
+.voice h2{
+  margin-bottom: 38px;
+}
+
+.voice .sliderrrr{
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.voice .sliderrrr div{
+  width: 34.18%;
+  padding:96px 0 100px 0;
+}
+
+.voice .sliderrrr div a{
+  font-size: 24px;
+}
+
+.voice .sliderrrr div p{
+  font-size: 20px;
+}
+
+.sliderrrr .voice1{
+  background:url(/images/voice1.png) no-repeat center center;
+}
+
+.sliderrrr .voice2{
+  background:url(/images/voice1.png) no-repeat center center;
+}
+
+.sliderrrr .voice3{
+  background:url(/images/voice1.png) no-repeat center center;
+}
+
+.sliderrrr .voice4{
+  background:url(/images/voice1.png) no-repeat center center;
+}
+
+.sliderrrr .voice5{
+  background:url(/images/voice1.png) no-repeat center center;
+}
+
+/* ========================================
+    .alum
+========================================= */
+.alum{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.alum h2{
+  margin-bottom: 39px;
+}
+
+.alum h3{
+  font-size: 30px;
+  color: #000;
+  margin:51px 0 31px 0;
+}
+
+.alum-og{
+  display: flex;
+  position: relative;
+  margin-bottom: 51px;
+
+}
+
+.alum-og img{
+  width: 33.45%;
+  height: auto;
+  object-fit: contain;
+  z-index: 1111;
+}
+
+.alum-og::before{
+  content: "";
+  /* max-width: 1100px; */
+  width: 100%;
+  height:100%;
+  background-color: #ec635d;
   position: absolute;
-  top: 24px;
-  right: 0;
-  left: 0;
-  z-index: 111;
+  top:20px;
+  left:20px;
+  display: block;
+  z-index:1;
+
+}
+
+/* ========================================
+    .video
+========================================= */
+
+.video{
+  text-align: center;
+  background-color: #d6d6d6;
+  padding:60px 0;
+}
+
+.video h2{
+  margin-bottom: 28px;
+}
+
+.video>.inner{
+  margin-bottom: 29px;
+}
+
+.video .inner div{
+  width: 32%;
+  text-align: left;
+}
+
+.video .inner div img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.video div h3 a{
+  color: #333;
+}
+
+.video div time{
+  color:#545454;
+}
+
+/* ========================================
+    .blog
+========================================= */
+.blog{
+  width: 100%;
+  padding:86px 0 75px 0;
+  text-align: center;
+}
+
+.blog h2{
+  margin-bottom: 18px;
+}
+
+.blog > .inner > div{
+  width: 32%;
+  text-align: left;
+}
+
+.blog .inner div img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog .inner div h3{
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.blog .inner div time{
+  font-size: 16px;
+  font-weight: normal;
+  color: #999;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.blog .inner div p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+}
+
+.hushtag a{
+  line-height: 1.25;
+}
+
+.hushtag{
+  width: auto;
+  position: relative;
+  background:#ec635d;
+  border-radius: 4px;
+  padding: 5px 0 5px 40px;
+  margin-bottom: 22px;
+}
+
+.hushtag::after{
+  content: "";
+  background:#ec635d url(/images/tag.png)no-repeat left top;
+  width: 20px;
+  height: 19px;
+  position: absolute;
+  left:10px;
+  top:7px;
+}
+
+/* ========================================
+    .access
+========================================= */
+.access{
+  width: 100%;
+  background-color: #000;
+  padding:60px 0 56px 0;
+}
+
+.access .inner .osaka{
+
+}
+
+/* ======== iframe ======= */
+iframe.gmap{
+  height:330px;
+  border:0;
+
+}
+
+/* ========================================
+    fb　　（（instragram）
+========================================= */
+.fb{
+  text-align: center;
+  padding: 80px 0 100px 0;
+}
+
+/* ========================================
+    .contact-list
+========================================= */
+.contact-list{
+  width: 100%;
+  text-align: center;
+  background-color: #eee;
+  padding:66px 0;
+}
+.contact-list ul li{
+  width: 29%;
+  display:inline-block;
+  text-align: left;
+}
+
+.contact-list ul li p{
+  font-size: 20px;
+  color: #333;
+}
+
+.contact-list ul li:nth-child(1) a{
+  background-color:#ec635d;
+}
+
+.contact-list ul li:nth-child(2) a{
+  background-color:#4d5f65;
+}
+
+.contact-list ul li:nth-child(3) a{
+  background-color:#4e4d65;
+}
+
+.contact-list ul li a{
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+/* ========================================
+   .sponcer
+========================================= */
+.sponcer{
+  width: 100%;
+  text-align: center;
+  padding:40px 0;
+}
+
+.sponcer ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sponcer ul li a img{
+  width: 98.54%;
+  object-fit: cover;
 }
 
 /* ========================================
@@ -149,7 +509,8 @@ h1 .hero-bg img {
 footer {
   width: 100%;
   background: #000;
-  vertical-align: bottom;
+
+
 }
 
 footer .footer-inner {
@@ -226,6 +587,7 @@ footer .contact-and-social-account .social-account ul li:last-child {
 }
 
 @media screen and (min-width:780px) {
+
   .footer-inner div:nth-child(3) {
     order: 1;
   }
@@ -239,13 +601,22 @@ footer .contact-and-social-account .social-account ul li:last-child {
   }
 
   .footer-inner .copyright {
-    padding-right: 100px;
+    width: 24%;
     border-right: 1px solid #6f6f6f;
   }
 
-  .footer-inner .footer-nav {
-    width:545px;
+  .footer-inner .copyright img{
+    width: 174px;
+    object-fit: cover;
+  }
+
+  .footer-inner > .footer-nav {
+    /* width:545px; */
+    display: flex;
+    width: 49%;
     padding-left: 37px;
+    margin-right: 120px;
+    justify-content: space-between;
   }
 
   /* .footer-nav */
@@ -255,7 +626,7 @@ footer .contact-and-social-account .social-account ul li:last-child {
   .footer-nav ul {
     /* width: 475px;
     column-width: 157px; */
-    column-count: 3;
+    /* column-count: 3; */
   }
   /* .footer-nav ul li{
     margin-right: 25px;
@@ -276,12 +647,67 @@ footer .contact-and-social-account .social-account ul li:last-child {
   width: 100%;
 }
 
+.inner{
+  margin:0 8.8%;
+}
+
+span.more-info{
+  display: inline-block;
+  text-align: center;
+  width:160px;
+  height:40px;
+  padding-top:8px;
+  padding-right: 26px;
+  background: #fff;
+  color: #666;
+  border-radius: 4px;
+  position:relative;
+  font-size: 16px;
+
+}
+
+span.wht{
+  background: #fff;
+  color: #666;
+
+}
+
+span.wht::after{
+  content: "";
+  width: 7px;
+  height:7px;
+  border-top: 2px solid #38302e;
+  border-left: 2px solid #38302e;
+  transform: rotate(135deg);
+  position: absolute;
+  top:15px;
+  right:22px;
+}
+
+span.blk{
+  background: #000;
+  color: #fff;
+
+}
+
+span.blk::after{
+  content: "";
+  width: 7px;
+  height:7px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  transform: rotate(135deg);
+  position: absolute;
+  top:15px;
+  right:22px;
+}
+
 /* ========================================
     slick
 ========================================= */
 .multiple {
   z-index: 999999;
-  margin-top: 120px;
+  top:546px;
 }
 
 .multiple div {

@@ -2,7 +2,7 @@ $(function(){
 
    $('.multiple').slick({
      arrows:false,
-      autoplay: true, //自動再生
+      autoplay: false, //自動再生
 
       infinite: true, //スライドのループ有効化
       dots: false, //ドットのナビゲーションを表示
