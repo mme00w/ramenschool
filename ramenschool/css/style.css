@@ -41,16 +41,16 @@ header div.header-split div.header-bottom figure {
   padding-top: 5px;
 }
 
-div.header-bottom nav ul {
+div.header-bottom nav.pc-menu ul {
   display: flex;
 }
 
-div.header-bottom nav ul li {
+div.header-bottom nav.pc-menu ul li {
   display: inline-block;
   padding-left: 20px;
 }
 
-div.header-bottom nav ul li:last-child {
+div.header-bottom nav.pc-menu ul li:last-child {
   padding-right: 46px;
 }
 
@@ -95,6 +95,15 @@ div.header-bottom .language a:first-child::after {
   position: absolute;
   left: 56px;
   top: 14px;
+}
+
+
+/* sp header */
+.sp-menu{
+  display: block;
+  width: 100%;
+  height:300px;
+  background-color: pink;
 }
 
 /* ========================================
@@ -760,7 +769,22 @@ span.blk::after{
   }
 }
 
+/* ========================================
+    media
+========================================= */
+@media screen and (min-width:750px) {
+  .sp-menu{
+    display: none;
+  }
+}
+
 @media screen and (max-width:750px) {
+
+  /* sp header */
+  #top #header .header-split .header-bottom nav.pc-menu{
+    display: none;
+  }
+
 
 
   .inner{
@@ -825,6 +849,10 @@ span.blk::after{
 
 
 }
+
+
+/* sp max-width 750px */
+
 
 /* ========================================
     #top
