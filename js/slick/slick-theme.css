@@ -23,19 +23,15 @@
 {
     font-size: 0;
     line-height: 0;
-
     position: absolute;
     top: 50%;
-
     display: block;
-
     width: 20px;
     height: 20px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-
     cursor: pointer;
 
     color: transparent;
@@ -90,12 +86,17 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    /* content: '←'; */
+    content: "url(../images/voice-arrow-r.png)";
 }
 [dir='rtl'] .slick-prev:before
 {
     content: '→';
 }
+
+/* .slick-prev:after {
+  content: url(../../images/voice-arrow-l.png);
+} */
 
 .slick-next
 {
@@ -108,12 +109,17 @@
 }
 .slick-next:before
 {
-    content: '→';
+    /* content: '→'; */
+    content: "url(../images/voice-arrow-r.png)";
 }
 [dir='rtl'] .slick-next:before
 {
     content: '←';
 }
+
+/* .slick-next:after {
+  content: url(../../images/voice-arrow-r.png);
+} */
 
 /* Dots */
 .slick-dotted.slick-slider
