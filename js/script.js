@@ -23,12 +23,12 @@ $(function(){
 
    $('.multiple').slick({
      arrows:false,
-      autoplay: false, //自動再生
+      autoplay: true, //自動再生
       infinite: true, //スライドのループ有効化
       dots: false, //ドットのナビゲーションを表示
       autoplaySpeed: 0,
      cssEase: 'linear',
-//     speed: 10000,
+     speed: 10000,
      centerMode: true,
      slidesToShow: 5, //表示するスライドの数
      slidesToScroll: 1, //スクロールで切り替わるスライドの数

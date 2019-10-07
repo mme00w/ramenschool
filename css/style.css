@@ -999,6 +999,10 @@ span.blk::after {
     float: unset;
   }
 
+  div.header-bottom .header-bottom-right .language {
+    display: none;
+  }
+
   .sp-menu {
     display: none;
     width: 100%;
