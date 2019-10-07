@@ -44,6 +44,7 @@ header div.header-split div.header-bottom {
 }
 
 .header-bottom-right {
+  display: none;
   width: 20%;
   display: table;
   float: right;
@@ -289,6 +290,10 @@ div.header-bottom .header-bottom-right .language ul li:first-child a::after {
   padding-bottom: 150px;
 }
 
+.sliderrrr .slick-slide > div {
+  width: 380px;
+}
+
 .sliderrrr .voice1 {
   background: url(/images/voice1.png) no-repeat center center;
 }
@@ -376,6 +381,7 @@ div.header-bottom .header-bottom-right .language ul li:first-child a::after {
   width: 32%;
   text-align: left;
   display: inline-block;
+  vertical-align: top;
 }
 
 .video>.inner>div>img {
@@ -855,6 +861,8 @@ span.blk::after {
 
 .multiple div img {
   width: 250px;
+  max-width: 100%;
+  height: auto;
   display: inline-block;
 }
 
@@ -981,8 +989,10 @@ span.blk::after {
   .sp-menu-button {
     /* background:url(/images/sp-menu-wht.png)no-repeat right center; */
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 50%;
+    right: 10px;
+    transform: translate(0,-50%);
+
   }
 
   .header-bottom-right {
@@ -990,7 +1000,7 @@ span.blk::after {
   }
 
   .sp-menu {
-    display: inline-block;
+    display: none;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     text-align: center;

@@ -28,20 +28,21 @@ $(function(){
       dots: false, //ドットのナビゲーションを表示
       autoplaySpeed: 0,
      cssEase: 'linear',
-     speed: 10000,
-      // slidesToShow: 4, //表示するスライドの数
-      // slidesToScroll: 4, //スクロールで切り替わるスライドの数
+//     speed: 10000,
+     centerMode: true,
+     slidesToShow: 5, //表示するスライドの数
+     slidesToScroll: 1, //スクロールで切り替わるスライドの数
       responsive: [{
         breakpoint: 768, //ブレークポイントが768px
         settings: {
-          slidesToShow: 2, //表示するスライドの数
+          slidesToShow: 3, //表示するスライドの数
           slidesToScroll: 1, //スクロールで切り替わるスライドの数
         }
       }, {
         breakpoint: 480, //ブレークポイントが480px
         settings: {
-          slidesToShow: 2, //表示するスライドの数
-          slidesToScroll: 2, //スクロールで切り替わるスライドの数
+          slidesToShow: 3, //表示するスライドの数
+          slidesToScroll: 1, //スクロールで切り替わるスライドの数
         }
       }]
     });
