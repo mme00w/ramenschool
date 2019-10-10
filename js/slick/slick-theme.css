@@ -110,7 +110,7 @@
 .slick-next:before
 {
     /* content: '→'; */
-    content: "url(../images/voice-arrow-r.png)";
+    content: "→";
 }
 [dir='rtl'] .slick-next:before
 {
