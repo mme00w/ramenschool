@@ -23,6 +23,7 @@ $(function () {
 
 $(function(){
   $('.hero .center').slick({
+    arrows: false,
     infinite: true, //スライドのループ有効化
     dots:false, //ドットのナビゲーションを表示
     centerMode: true, //要素を中央寄せ
