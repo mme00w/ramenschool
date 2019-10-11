@@ -46,6 +46,7 @@ header div.header-split div.header-bottom {
 }
 
 .header-bottom-right {
+  display: none;
   width: 20%;
   display: table;
   float: right;
@@ -89,13 +90,8 @@ div.header-bottom .header-bottom-left nav.pc-menu ul li:last-child a {
 
 div.header-bottom .header-bottom-right .language {
   display: table;
-  /* vertical-align: middle; */
-  /* float: right; */
 }
 
-/* .language-menu{
-  display: inline-block;
-} */
 div.header-bottom .header-bottom-right .language ul {
   display: table;
   height: 70px;
@@ -378,6 +374,7 @@ div.header-bottom .header-bottom-right .language ul li:first-child a::after {
   width: 32%;
   text-align: left;
   display: inline-block;
+  vertical-align: top;
 }
 
 .video>.inner>div>img {
@@ -872,7 +869,9 @@ span.blk::after {
 }
 
 .hero .center div img {
-  width: 100%;
+  width: 250px;
+  max-width: 100%;
+  height: auto;
   display: inline-block;
   padding: 0 13px 10px;
 }
@@ -941,6 +940,8 @@ span.blk::after {
     width: 174px;
     object-fit: cover;
   }
+
+
 
   .footer-nav>.pc-footer-nav {
     /* width:545px; */
@@ -1013,11 +1014,26 @@ span.blk::after {
   }
 
   .sp-menu-button {
+    display: inline-block;
     position: absolute;
-    top: 24px;
-    right: -20px;
-    padding-left: 10%;
+    max-width: 60px;
+    width: 100%;
+    height:auto;
+    top: 30px;
+    right: 10px;
+    transform: translate(0,-50%);
+    line-height: 1.25;
+
   }
+
+  .sp-menu-button span{
+    display: inline-block;
+    width: 100%;
+    height: 6px;
+    background-color: #fff;
+  }
+
+
 
   .header-bottom-right {
     /* float: unset; */
@@ -1028,8 +1044,12 @@ span.blk::after {
     transform: translateY(-50%) translateX(-50%);
   }
 
+  div.header-bottom .header-bottom-right .language {
+    /* display: none; */
+  }
+
   .sp-menu {
-    display: inline-block;
+    display: none;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     text-align: center;
@@ -1040,6 +1060,14 @@ span.blk::after {
   .open-menu {
     opacity: 0;
     transition: 1s;
+  }
+
+  .open{
+    opacity: 1;
+  }
+
+  .close{
+    opacity: 0;
   }
 
   .sp-menu ul li {
