@@ -77,7 +77,10 @@
 
 .slick-prev
 {
-    left: -25px;
+    /* left: -25px; */
+    left: 60px;
+    top: 90px; /*ここ修正した*/
+    z-index: 100; /*ここ修正した*/
 }
 [dir='rtl'] .slick-prev
 {
@@ -87,20 +90,20 @@
 .slick-prev:before
 {
     /* content: '←'; */
-    content: "url(../images/voice-arrow-r.png)";
+    content: url(../../images/voice-arrow-l.png);
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    /* content: '→'; */
+    content: url(../../images/voice-arrow-l.png);
 }
-
-/* .slick-prev:after {
-  content: url(../../images/voice-arrow-l.png);
-} */
 
 .slick-next
 {
-    right: -25px;
+
+    top: 90px;
+    right: 160px;/*ここ修正した*/
+    z-index: 99; /*ここ修正した*/
 }
 [dir='rtl'] .slick-next
 {
@@ -110,16 +113,13 @@
 .slick-next:before
 {
     /* content: '→'; */
-    content: "→";
+    content: url(../../images/voice-arrow-r.png);
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    /* content: '←'; */
+    content: url(../../images/voice-arrow-r.png);
 }
-
-/* .slick-next:after {
-  content: url(../../images/voice-arrow-r.png);
-} */
 
 /* Dots */
 .slick-dotted.slick-slider

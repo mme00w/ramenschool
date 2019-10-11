@@ -1,14 +1,25 @@
 $(function () {
-  $(".sp-menu-button").on("click", function () {
-    if ($(this).hasClass("open")) {
-      $(this).removeClass("open");
-      $(".burger-nav").removeClass("open");
-    } else {
-      $(this).addClass("is-burger-nav-open");
-      $(".burger-nav").addClass("open");
-    }
+  $(".button1").on("click", function () {
+      $(".button1").removeClass("open");
+      $(".button1").addClass("close");
+      $(".button2").removeClass("close");
+      $(".button2").addClass("open");
+      $(".sp-menu").removeClass("close");
+      $(".sp-menu").addClass("open");
   });
 });
+
+$(function () {
+  $(".button2").on("click", function () {
+      $(".button2").removeClass("open");
+      $(".button2").addClass("close");
+      $(".button1").removeClass("close");
+      $(".button1").addClass("open");
+      $(".sp-menu").removeClass("open");
+      $(".sp-menu").addClass("close");
+  });
+});
+
 
 $(function(){
   $('.hero .center').slick({
