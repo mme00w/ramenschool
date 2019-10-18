@@ -1053,6 +1053,10 @@ width: 100%;
   font-size: 18px;
 }
 
+#cn #contents .font3{
+font-size: 30px;
+}
+
 #cn #contents .inner{
   width: 1100px;
   margin:0 auto;
@@ -1088,24 +1092,34 @@ width: 100%;
 }
 
 #cn #contents .section .img{
-  float: right;
+  width: 50%;
+}
+
+#cn #contents .section .description{
   width: 50%;
 
 }
 
+#cn #contents .section01 .img{
+  float: right;
+  margin-bottom: 40px
 
+}
 
-#cn #contents .section .description{
+#cn #contents .section01 .description{
   float: left;
-  width: 50%;
   padding:140px 44px 0 150px;
 }
 
-#cn #contents .section:nth-child(even) .img{
+#cn #contents .section02 .img{
   float: left;
 }
 
-#cn #contents .section:nth-child(even) .description{
+#cn #contents .section03 .img{
+  float: left;
+}
+
+#cn #contents .section03 .description{
   float: right;
   padding-left: 44px;
 }
@@ -1144,10 +1158,6 @@ width: 100%;
 #cn #contents .translator{
   width: 100%;
   background:url(/images/cn/02.png) no-repeat center center;
-
-}
-
-#cn #contents .translator .inner h2.font1,#cn .translator .inner p.font2{
 
 }
 
@@ -1264,16 +1274,95 @@ width: 100%;
   margin-bottom: 38px;
 }
 
-#cn #contents .section.section-even{
+#cn #contents .section02,#cn #contents .section03{
   background-color: #fdefee;
 }
 
-#cn #contents .section.section-even .description {
-    padding: 140px 44px 0 52px;
+#cn #contents .section02 .description{
+  float: left;
+  padding: 140px 44px 0 52px;
+
 }
 
-#cn #contents .section.section-even .description{
-    padding: 140px 44px 0 52px;
+#cn #contents .section02 .img{
+  float: right;
+}
+
+
+
+#cn #contents .section02 .price{
+  width: 52.857142%;
+  margin-top:63px;
+  padding:16px 20px;
+  background-color: #c2312b;
+  text-align: center;
+  border-radius: 4px;
+}
+
+#cn #contents .section02 .price h3,#cn #contents .trial-course .price h3{
+  color: #fff;
+  font-size: 28px;
+}
+
+#cn #contents .section02 .price .plan-cost,#cn #contents .trial-course .price .plan-cost{
+  width: 100%;
+  padding:5px 13px;
+  background-color: #fff;
+  text-align: left;
+}
+
+#cn #contents .section02 .price .plan-cost p,#cn #contents .trial-course .price p{
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#cn #contents .trial-course{
+  padding:72px 0 93px;
+  text-align: center;
+}
+
+#cn #contents .trial-course p.trial-course-about{
+  display: inline-block;
+  width: 45.454545454%;
+  height: 80px;
+  margin-bottom: 40px;
+  padding:20px 0;
+  background-color: #eee;
+  text-align: center;
+}
+
+#cn #contents .trial-course h2{
+  margin-bottom: 42px;
+}
+
+#cn #contents .trial-course .trial-course-list{
+  overflow: hidden;
+  text-align: left;
+}
+
+#cn #contents .trial-course .trial-course-list .about-box{
+  width: 48.181818%;
+  padding:35px 74px;
+  border:5px solid #ec635d;
+
+}
+
+#cn #contents .trial-course .trial-course-list .about1{
+  float: left;
+}
+
+#cn #contents .trial-course .trial-course-list .about2{
+  float: right;
+}
+
+#cn #contents .trial-course .price{
+  display: inline-block;
+  width: 36.3636363%;
+  margin-top:63px;
+  padding:16px 20px;
+  background-color: #c2312b;
+  text-align: center;
+  border-radius: 4px;
 }
 
 /* =======================================
