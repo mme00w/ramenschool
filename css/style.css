@@ -395,14 +395,10 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
 /* ========================================
 .blog
 ========================================= */
-#top #contents {
-  width: 100%;
-  /* padding: 86px 0 53px 0; */
-  text-align: center;
-}
 
 #top #contents h2 {
   margin-bottom: 9px;
+  text-align: center;
 }
 
 #top #contents .inner .article, .sp-blog .article {
@@ -480,6 +476,7 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
 
 #top #contents .access .inner .access-description .access-text, .access-title {
   text-align: left;
+  margin-bottom: 20px;
 }
 
 #top #contents .access .inner .access-description .access-text {
@@ -489,13 +486,11 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
   font-weight: 500;
 }
 
-#top #contents .access .inner .access-description .access-title {
-  margin-bottom: 20px;
-}
 
 #top #contents .access .inner .access-description .access-title h2, .access-title h2 {
   font-size: 20px;
   font-weight: 600;
+  text-align: left;
 }
 
 #top #contents .access .inner .access-description .access-title p {
@@ -831,7 +826,11 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 /* ========================================
+
+
     !!!! #about
+
+
 ========================================= */
 #about .hero,#cn .hero {
   position: relative;
@@ -1030,6 +1029,253 @@ width: 100%;
   font-size: 18px;
 }
 
+/* ========================================
+
+
+    !!!! #cn
+
+
+========================================= */
+#cn #contents *{
+  color: #000;
+}
+
+#cn #contents .translator .inner .txt-wht{
+  color: #fff;
+}
+
+#cn #contents .font1{
+  font-size: 40px;
+
+}
+
+#cn #contents .font2{
+  font-size: 18px;
+}
+
+#cn #contents .inner{
+  width: 1100px;
+  margin:0 auto;
+}
+
+
+#cn #contents .sub-hero{
+  padding:76px 0 64px;
+  text-align: center;
+}
+#cn #contents .sub-hero h2 span{
+  font-size: 50px;
+
+}
+
+#cn #contents .sub-hero h2{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+#cn #contents .sub-hero img{
+  display: inline-block;
+  margin-bottom: 54px;
+
+}
+
+#cn #contents .sub-hero p{
+  font-size: 18px;
+}
+
+#cn #contents .section{
+  overflow: hidden;
+}
+
+#cn #contents .section .img{
+  float: right;
+  width: 50%;
+
+}
+
+
+
+#cn #contents .section .description{
+  float: left;
+  width: 50%;
+  padding:140px 44px 0 150px;
+}
+
+#cn #contents .section:nth-child(even) .img{
+  float: left;
+}
+
+#cn #contents .section:nth-child(even) .description{
+  float: right;
+  padding-left: 44px;
+}
+
+#cn #contents .section .description h2{
+  margin-bottom: 45px;
+}
+
+#cn #contents .ramen-about{
+  padding:78px 0 80px;
+}
+
+#cn #contents .ramen-about h2{
+  margin-bottom: 40px;
+}
+
+#cn #contents .center{
+  margin-bottom: 80px;
+}
+
+#cn #contents .trial-lesson{
+  padding: 60px 0 45px;
+}
+
+#cn #contents .stay{
+  background-color: #fdefee;
+  overflow: hidden;
+}
+
+#cn #contents .stay .stay-img{
+  margin-right: 39px;
+  float: left;
+  overflow: hidden;
+}
+
+#cn #contents .translator{
+  width: 100%;
+  background:url(/images/cn/02.png) no-repeat center center;
+
+}
+
+#cn #contents .translator .inner h2.font1,#cn .translator .inner p.font2{
+
+}
+
+#cn #contents .translator h2{
+  margin-bottom: 47px;
+}
+
+#cn #contents .translator{
+  padding:111px 0 238px;
+}
+
+#cn #contents .support{
+  padding:60px 0 0 0;
+}
+
+#cn #contents .support h2{
+  margin-bottom:38px;
+}
+
+#cn #contents .support p{
+  margin-bottom: 54px;
+}
+
+#cn #contents .course1{
+  width: 100%;
+  height: 550px;
+  padding-top: 50px;
+  background:url(/images/cn/03.png) no-repeat center center;
+  background-size: cover;
+  overflow:hidden;
+}
+
+#cn #contents .course1 .inner .txt-wht{
+  color: #fff;
+}
+
+#cn #contents .course1 h2{
+  text-align: center;
+}
+
+#cn #contents .course1 .inner ul{
+  width: 100%;
+  height: auto;
+  margin-top:22px;
+}
+
+#cn #contents .course1 .inner li.plan{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 49.0909090%;
+  height: 65px;
+  margin-bottom: 15px;
+  padding:10px 20px 10px 72px;
+  border-radius: 4px;
+  background-color:#c2312b;
+}
+
+#cn #contents .course1 .inner li.plan{
+  float: left;
+}
+
+#cn #contents .course1 .inner li.plan:nth-child(even){
+  float: right;
+}
+
+#cn #contents .course1 .inner li.plan .plan-cost{
+  width: 50%;
+  padding-left: 12px;
+  background-color:#FFF;
+}
+
+#cn #contents .teacher{
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.center-items{
+  text-align: center;
+}
+
+#cn #contents .teacher .center-items p{
+  margin-right: 26px;
+}
+
+#cn #contents .teacher .center-items img{
+  display: inline-block;
+  margin-right: 28px;
+}
+
+#cn #contents .teacher ul {
+  width: 100%;
+  height: auto;
+
+
+}
+
+#cn #contents .teacher ul li{
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+#cn #contents .teacher ul li .teacher-img{
+  float: left;
+  margin-right: 60px;
+}
+
+#cn #contents .teacher ul li .about-teacher h3{
+  margin-bottom: 26px;
+}
+
+#cn #contents .teacher ul li .about-teacher p.position{
+  margin-bottom: 38px;
+}
+
+#cn #contents .section.section-even{
+  background-color: #fdefee;
+}
+
+#cn #contents .section.section-even .description {
+    padding: 140px 44px 0 52px;
+}
+
+#cn #contents .section.section-even .description{
+    padding: 140px 44px 0 52px;
+}
+
 /* =======================================
 
 common
@@ -1100,15 +1346,15 @@ a.blk::after {
 /* ========================================
     slick
 ========================================= */
-#top #contents .hero .center {
+.center{
   overflow: hidden;
 }
 
-#top #contents .hero .center .ramen-pics {
+.center .ramen-pics {
   text-align: center;
 }
 
-#top #contents .hero .center .ramen-pic {
+.center .ramen-pic {
   display: inline-block;
   width: 250px;
   max-width: 100%;
@@ -1116,7 +1362,7 @@ a.blk::after {
   padding: 0 13px 10px;
 }
 
-#top #contents .hero .center p {
+.center p {
   color: #000;
   font-size: 1.714vw;
 }
@@ -1135,7 +1381,7 @@ a.blk::after {
     min-width: 1100px;
   }
 
-  .inner {
+  #top .inner,#about .inner {
     display: flex;
     margin: 0 10.8%;
     justify-content: space-between;
@@ -1410,7 +1656,7 @@ a.blk::after {
     font-size: 2.133vw;
   }
 
-  #top #contents .hero .center p {
+.center p {
     font-size: 3.2vw;
   }
 
@@ -1432,7 +1678,7 @@ a.blk::after {
     font-size: 3.8vw;
   }
 
-  .inner {
+  #top .inner {
     display: block;
     margin: 0 16.26%;
     justify-content: unset;

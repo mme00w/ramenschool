@@ -22,7 +22,7 @@ $(function () {
 
 
 $(function(){
-  $('.hero .center').slick({
+  $('.hero .center,#cn .center').slick({
     arrows: false,
     infinite: true, //スライドのループ有効化
     dots:false, //ドットのナビゲーションを表示
