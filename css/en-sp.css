@@ -1,5 +1,53 @@
 @charset "UTF-8";
 
+.pc-img{
+    display: none;
+}
+
+.sp-img{
+    display: block;
+}
+
+.aboutpage-language #contents .font1{
+    /* font-size: calc(40px*0.78);  */
+    font-size: 5.33333vw;
+
+  }
+
+  .aboutpage-language #contents .font2{
+    /* font-size: 2.4vw; */
+    /* font-size: calc(18px*0.78);  */
+    font-size: 3.733333333vw;
+    /* 一旦28ｐｘ */
+  }
+  
+
+  .aboutpage-language #contents .font3{
+  /* font-size: calc(30px*0.78);  */
+  font-size: 4vw;
+
+  }
+
+  .aboutpage-language #contents .font4{
+    font-size: 3.2vw;
+    /* font-size: calc(24px*0.78);  */
+
+  }
+
+  .aboutpage-language #contents .font5{
+    font-size: 2.666666666vw;
+    /* font-size: calc(20px*0.78);  */
+  }
+
+  .aboutpage-language #contents .font6{
+    font-size: 6.6666666vw;
+    /* font-size: calc(50px*0.78);  */
+  }
+
+  .aboutpage-language #contents .font7{
+    font-size: 16px;
+  }
+
 #top, #about ,.aboutpage-language{
   position: relative;
   overflow: hidden;
@@ -148,401 +196,11 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
   border-right: 1px solid #fff;
 }
 
-/* ========================================
-    .hero
-========================================= */
-#top #contents .hero {
-  position: relative;
-  width: 100%;
-  height: 577px;
-  margin: 0 auto;
-  margin-bottom: 23%;
-  background: url(/images/hero.png)no-repeat center center;
-  background-size: cover;
-  text-align: center;
-}
-
-#top #contents .hero h1 {
-  display: inline-block;
-  position: absolute;
-  top: 124px;
-  right: 0;
-  left: 0;
-  z-index: 999;
-  font-size: 16px;
-}
-
-#top #contents .hero .hero-title-img {
-  display: inline-block;
-  z-index: 888;
-  max-width: 361px;
-  width: 100%;
-  margin-top: 162px;
-  margin-bottom: 36px;
-}
-
-#top #contents .hero .hero-title-img img {
-  width: 100%;
-}
-
-/* ========================================
-    .the-school
-========================================= */
-#top #contents .the-school {
-  width: 100%;
-  background: url(/images/school-bg.png)no-repeat center top;
-  background-size: cover;
-  padding: 60px 0;
-  text-align: center;
-}
-
-#top #contents .the-school h3 {
-  padding: 21px 0 48px 0;
-  font-size: 40px;
-  line-height: 1.4;
-}
-
-/* ========================================
-    .instructor
-========================================= */
-#top #contents .instructor {
-  width: 100%;
-  height: 433px;
-  background: url(/images/instructor-bg.png) no-repeat center top;
-  background-size: contain;
-  /* padding-top: 31.17%; */
-  padding: 141px 0 0 0;
-  text-align: center;
-}
-
-#top #contents .instructor h3 {
-  padding: 11px 0 92px 0;
-  font-size: 40px;
-  line-height: 1.4;
-}
-
-/* ========================================
-    .course
-========================================= */
-#top #contents .course {
-  padding: 40px 0 54px 0;
-  text-align: center;
-}
-
-#top #contents .course h2 {
-  padding-bottom: 26px;
-}
-
-#top #contents .course .inner h3 {
-  width: 48.63%;
-}
-
-#top #contents .course .inner h3 a {
-  display: block;
-  object-fit: contain;
-  width: 100%;
-  padding: 271px 0 34px 0;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-#top #contents .course .inner h3 a:first-child {
-  background: url(/images/course01-bg.png) no-repeat center top;
-}
-
-#top #contents .course .inner h3 a:last-child {
-  background: url(/images/course02-bg.png) no-repeat center top;
-}
-
-/* ========================================
-    .banner
-========================================= */
-#top #contents .banner {
-  width: 100%;
-  margin-bottom: 54px;
-}
-
-#top #contents .banner img {
-  object-fit: cover;
-  width: 100%;
-  height: 300px;
-}
-
-/* ========================================
-    .voice
-========================================= */
-#top #contents .voices {
-  width: 100%;
-  margin-bottom: 57px;
-  text-align: center;
-}
-
-#top #contents .voices h2 {
-  margin-bottom: 30px;
-}
-
-#top #contents .voices .voice-slider .voice {
-  position: relative;
-  width: 100%;
-  height: 253px;
-  margin-right: 10px;
-  overflow: hidden;
-}
-
-#top #contents .voices .voice-slider .voice .caption {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-}
 
 .caption p, .caption a {
   color: #fff;
   font-size: 24px;
 }
-
-#top #contents .voices .voice-slider .voice1 {
-  background: url(/images/voice1.png) no-repeat center center;
-}
-
-#top #contents .voices .voice-slider .voice2 {
-  background: url(/images/voice1.png) no-repeat center center;
-}
-
-#top #contents .voices .voice-slider .voice3 {
-  background: url(/images/voice1.png) no-repeat center center;
-}
-
-#top #contents .voices .voice-slider .voice4 {
-  background: url(/images/voice1.png) no-repeat center center;
-}
-
-#top #contents .voices .voice-slider .voice5 {
-  background: url(/images/voice1.png) no-repeat center center;
-}
-
-/* ========================================
-    .alum
-========================================= */
-#top #contents .alum {
-  width: 100%;
-  margin-bottom: 60px;
-  text-align: center;
-}
-
-#top #contents .alum h2 {
-  margin-bottom: 34px;
-}
-
-#top #contents .alum h3 {
-  margin: 27px 0 25px 0;
-  font-size: 30px;
-  color: #000;
-  line-height: 1.3;
-}
-
-#top #contents .alum .alum-og {
-  margin-bottom: 51px;
-}
-
-#top #contents .alum .alum-og img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-/* ========================================
-    .video
-========================================= */
-#top #contents .videos {
-  padding: 60px 0;
-  background-color: #d6d6d6;
-  text-align: center;
-}
-
-#top #contents .videos h2 {
-  margin-bottom: 20px;
-}
-
-#top #contents .videos .inner {
-  margin-bottom: 29px;
-}
-
-#top #contents .videos .inner .video {
-  display: inline-block;
-  vertical-align: top;
-  width: 32%;
-  text-align: left;
-}
-
-#top #contents .videos .inner .video a img {
-  display: inline-block;
-  width: 100%;
-  margin-bottom: 6px;
-}
-
-#top #contents .videos .video h3 a {
-  color: #333;
-}
-
-#top #contents .videos .video time {
-  color: #545454;
-}
-
-/* ========================================
-.blog
-========================================= */
-
-#top #contents h2 {
-  margin-bottom: 9px;
-  text-align: center;
-}
-
-#top #contents .inner .article, .sp-blog .article {
-  width: 32%;
-  text-align: left;
-}
-
-#top #contents .inner .article img, .sp-blog .article img {
-  object-fit: cover;
-  width: 100%;
-  margin-bottom: 12px;
-}
-
-#top #contents .blog {
-  padding: 86px 0 78px 0;
-}
-
-#top #contents .blog .inner .article h3 a, .sp-blog h3 a {
-  margin-bottom: 4px;
-  font-size: 20px;
-  color: #333;
-  line-height: 1.2;
-}
-
-#top #contents .blog .inner .article time, .sp-blog time {
-  display: inline-block;
-  margin-bottom: 10px;
-  font-size: 16px;
-  font-weight: normal;
-  color: #999;
-}
-
-#top #contents .blog .inner .article p a, .sp-blog p a {
-  font-size: 16px;
-  font-weight: normal;
-  color: #333;
-}
-
-#top #contents .blog .inner .article2 .hushtag a, .sp-blog a {
-  line-height: 1.25;
-}
-
-#top #contents .blog .inner .article .hushtag, .sp-blog .hushtag {
-  position: relative;
-  width: auto;
-  padding: 5px 0 5px 40px;
-  border-radius: 4px;
-  margin-bottom: 12px;
-  background: #ec635d;
-}
-
-#top #contents .blog .inner .article .hushtag::after, .sp-blog .hushtag::after {
-  content: "";
-  position: absolute;
-  left: 10px;
-  top: 7px;
-  width: 20px;
-  height: 19px;
-  background: #ec635d url(/images/tag.png)no-repeat left top;
-}
-
-/* ========================================
-    .access
-========================================= */
-#top #contents .access {
-  width: 100%;
-  padding: 56px 0 56px 0;
-  background-color: #000;
-}
-
-#top #contents .access .inner .access-description {
-  width: 48.18%;
-  text-align: center;
-}
-
-#top #contents .access .inner .access-description .access-text, .access-title {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-#top #contents .access .inner .access-description .access-text {
-  display: inline-block;
-  padding-top: 5px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-
-#top #contents .access .inner .access-description .access-title h2, .access-title h2 {
-  font-size: 20px;
-  font-weight: 600;
-  text-align: left;
-}
-
-#top #contents .access .inner .access-description .access-title p {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-/* ======== iframe ======= */
-#top #contents .access .inner .access-description .gmap iframe {
-  width: 100%;
-  height: 330px;
-  border: 0;
-  margin-bottom: 18px;
-}
-
-#top #contents .access .inner .access-description .gmap-btn {
-  display: inline-block;
-  position: relative;
-  z-index: 11;
-  width: 160px;
-  height: 40px;
-  margin-bottom: 33px;
-  padding-right: 30px;
-  border-radius: 4px;
-  background: #555 url(/images/gmap-btn-arrow.png)no-repeat right 20px center/6%;
-  line-height: 2.4;
-  text-align: center;
-}
-
-/* ========================================
-    fb　　（（instragram）
-========================================= */
-#top #contents .fb-area {
-  width: 100%;
-  height: 660px;
-  margin: 0 auto;
-  padding: 80px 15px;
-  text-align: center;
-}
-
-#top #contents .fb-prugin {
-  display: inline-block;
-  max-width: 500px;
-  width: 100%;
-}
-
-#top #contents .fb-prugin iframe {
-  width: 100%;
-}
-
 /* ========================================
     .contact-list
 ========================================= */
@@ -847,7 +505,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 
 
 ========================================= */
-#about .hero,.aboutpage-language .hero {
+.aboutpage-language .hero {
   position: relative;
   width: 100%;
   height: 475px;
@@ -856,11 +514,11 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   text-align: center;
 }
 
-#about .hero h1,.aboutpage-language .hero h1 {
+.aboutpage-language .hero h1 {
   padding: 214px 0 133px 0;
 }
 
-#about .menu-path,.aboutpage-language .menu-path{
+.aboutpage-language .menu-path{
   float: left;
   position: absolute;
   bottom: 0;
@@ -872,176 +530,10 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   text-align: left;
 }
 
-#about .menu-path a, #about .menu-path p,.aboutpage-language .menu-path a,.aboutpage-language .menu-path p {
+.aboutpage-language .menu-path a,.aboutpage-language .menu-path p {
   display: inline-block;
   margin-right: 9px;
   color: #333;
-}
-
-#about .sub-hero {
-  width: 100%;
-  height: 700px;
-  padding-top: 84px;
-  background: url(/images/about/sub-hero.png) no-repeat center center;
-  line-height: 1.2;
-}
-
-#about .sub-hero h2 {
-  font-size: 50px;
-  /* font-size: 3.57142857143vw; */
-  text-align: center;
-}
-
-#about .section {
-  width: 100%;
-  height: 466px;
-  object-fit: cover;
-  overflow: hidden;
-}
-
-#about .section * {
-  color: #000;
-}
-
-#about .section .img {
-  display: block;
-  float: left;
-  width: 50%;
-}
-
-/* #about .section .img img{
-width: 100%;
-
-} */
-#about .section .description {
-  display: block;
-  float: right;
-  width: 50%;
-  padding: 74px 150px 0 41px;
-  line-height: 1.66;
-}
-
-#about .section .description h2 {
-  margin-bottom: 25px;
-  font-size: 40px;
-  /* font-size: 2.85714285714vw; */
-  font-weight: bold;
-}
-
-#about .section .description p {
-  font-size: 18px;
-  /* font-size: 1.28571428571vw; */
-}
-
-#about .section .description p span {
-  background: linear-gradient(transparent 50%, #f1d5d3 50%);
-}
-
-#about .section:nth-child(even) .description {
-  float: left;
-  padding-left: 150px;
-  padding-right: 28px;
-}
-
-#about .section:nth-child(even) .img {
-  float: right;
-}
-
-#about .stay {
-  max-width: 1100px;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 40px;
-  overflow: hidden;
-}
-
-#about .stay h2 {
-  margin-bottom: 27px;
-  /* font-size: 2.8571428571vw; */
-  font-size: 40px;
-  color: #cb5952;
-  text-align: center;
-}
-
-#about .stay p.stay-text {
-  margin-bottom: 37px;
-}
-
-#about .stay .stay-img {
-  float: left;
-  margin-right: 42px;
-  width: 29.090909%;
-}
-
-#about .stay .stay-img img {
-  width: 100%;
-}
-
-#about .stay .stay-caption {
-  padding-top: 10px;
-}
-
-#about .stay p, .stay .stay-caption * {
-  color: #000;
-}
-
-#about .stay .stay-caption p span.stay-caption-text1 {
-  display: inline-block;
-  margin-bottom: 18px;
-  font-size: 2.142857vw;
-}
-
-#about .stay .stay-caption .stay-caption-text2 {
-  font-size: 1.28571428571vw;
-}
-
-#about .stay .stay-caption table td.td-detail {
-  display: inline-block;
-  margin-left: 60px;
-}
-
-#about .media {
-  width: 100%;
-  height: auto;
-  padding: 185px 0 0 0;
-  background: url(/images/about/media-bg.png)no-repeat center center;
-  background-size: cover;
-  text-align: center;
-}
-
-#about #contents .media h3 {
-  margin-bottom: 47px;
-  padding: 0px 0 56px 0;
-  font-size: 3.857142857vw;
-  line-height: 1.4;
-}
-
-#about #contents .media-appear {
-  max-width: 1100px;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  text-align: center;
-}
-
-#about #contents .media-appear .genre-title {
-  margin-bottom: 30px;
-  color: #000;
-  font-size: 24px;
-}
-
-#about #contents .media-appear .appeared {
-  margin-bottom: 44px;
-  border: 1px solid #000;
-  padding: 24px 22px 30px;
-  line-height: 1.66;
-}
-
-#about #contents .media-appear .appeared p {
-  color: #3f3f3f;
-  font-size: 18px;
 }
 
 /* ========================================
@@ -1061,8 +553,8 @@ width: 100%;
 }
 
 .aboutpage-language #contents .inner{
-  max-width: 1100px;
-  width: 100%;
+    width: 100%;
+    padding: 0 10px;
   margin:0 auto;
 }
 
@@ -1083,29 +575,30 @@ width: 100%;
 }
 
 #en #contents .sub-hero h2{
- line-height: 1;
+ line-height: 1.2;
 }
 
 .aboutpage-language #contents .sub-hero h2 span{
   display: inline-block;
-  margin-bottom: 9px;
+  margin-bottom: 2%;
 
 }
 
 .aboutpage-language #contents .sub-hero h2{
-  margin-bottom: 25px;
-  font-size: 30px;
+  margin-bottom: 7%;
 }
 
-.aboutpage-language #contents .sub-hero img{
+.aboutpage-language #contents .sub-hero .sp-img{
   display: inline-block;
-  margin-bottom: 54px;
+  /* margin-bottom: 54px; */
+  margin-bottom: 6.7%;
 
 }
 
 .aboutpage-language #contents .sub-hero p{
   text-align: left;
-  font-size: 18px;
+  /* font-size: 18px; */
+  padding: 0.9%;
   line-height: 1.6;
 }
 
@@ -1113,39 +606,33 @@ width: 100%;
   overflow: hidden;
 }
 
-.aboutpage-language #contents .section .img{
-  width: 50%;
+/* .aboutpage-language #contents .section .img{
+  width: 90%;
 }
-
-.aboutpage-language #contents .section .img img{
+ */
+.aboutpage-language #contents .section .img{
   width: 100%;
   vertical-align: bottom;
+  text-align: center;
 }
 
-.aboutpage-language #contents .section .description{
-  width: 50%;
+.aboutpage-language #contents .section01 .img img{
+    width: 75%;
+  }
 
-}
 
 .aboutpage-language #contents .section01{
   background-color: #fdefee;
   margin-bottom: 40px;
 }
 
-.aboutpage-language #contents .section01 .img{
-  float: right;
-}
-
-.aboutpage-language #contents .section01 .description{
-  float: left;
-}
 
 #cn #contents .section01 .description{
   padding:140px 44px 0 150px;
 }
 
 #en #contents .section01 .description{
-  padding:9% 3% 0 10.7%;
+  padding: 6% 3%;
 }
 
 .aboutpage-language #contents .section01 .description .font1{
@@ -1153,13 +640,18 @@ width: 100%;
 }
 
 #en #contents .section01 .description .font1{
-  margin-bottom: 22px;
+    margin-bottom: 5.5%;
 
 }
 
 
 #en #contents .section01 .description .font1{
+    text-align: center;
   line-height: 1.3;
+}
+
+#en #contents .section01 .description .font1 br{
+    display: none;
 }
 
 .aboutpage-language #contents .section01 .description p{
@@ -1214,7 +706,7 @@ width: 100%;
 }
 
 #en #contents .ramen-about{
-  padding: 26px 0 55px;
+    padding: 8% 1.2%;
 }
 
 .aboutpage-language #contents .ramen-about h2{
@@ -1222,7 +714,7 @@ width: 100%;
 }
 
 #en #contents .ramen-about h2{
-  margin-bottom: 22px;
+    text-align: center;
 }
 
 .aboutpage-language #contents .ramen-about .font2{
@@ -1244,7 +736,7 @@ width: 100%;
 }
 
 #en #contents .trial-lesson{
-  padding: 40px 0 40px;
+  padding: 40px 0 55px;
 }
 
 .aboutpage-language #contents .trial-lesson{
@@ -1261,15 +753,20 @@ width: 100%;
 }
 
 #en #contents .trial-lesson h2{
-  margin-bottom: 28px;
+  margin-bottom: 2%;
 }
 
-#en #contents .trial-lesson h2 {
+#en #contents .trial-lesson h3{
+  font-size: 3.733333333vw;
+}
+
+#en #contents .trial-lesson .font1 {
+  font-size: 6.6666666vw;
   text-align:center;
 }
 
 .aboutpage-language #contents .trial-lesson h3{
-  line-height: 1.6;
+  line-height: 1.7;
 
 }
 
@@ -1281,40 +778,43 @@ width: 100%;
 }
 
 #en #contents .stay{
-  margin-bottom: 6px;
+    padding-bottom: 8%;
+    margin-bottom: 0;
   background-color: #fdefee;
   overflow: hidden;
 }
 
+
 .aboutpage-language #contents .stay .stay-img{
-  width: 320px;
-  margin-right: 39px;
-  float: left;
-  overflow: hidden;
+  width: 100%;
+  text-align: center;
 }
 
 .aboutpage-language #contents .stay .stay-img img{
-  width: 100%;
+    width: 44%;
 }
 
 .aboutpage-language #contents .stay .stay-caption{
   padding-top: 52px;
 }
 
-#en #contents .stay{
-  margin-bottom: 77px;
-}
 
 #en #contents .stay .stay-caption{
-  padding-top: 42px;
+  padding-top:5%;
 }
 
-.aboutpage-language #contents .stay .stay-caption h2{
+.aboutpage-language #contents .stay .stay-caption .font1{   
   margin-bottom: 19px;
+  text-align: center;
+  font-size: 6.6666666vw;
 }
 
 #en #contents .stay .stay-caption h2{
   margin-bottom: 9px;
+}
+
+#en #contents .stay .stay-caption .font2{
+  margin-bottom: 5%;
 }
 
 
@@ -1326,7 +826,7 @@ width: 100%;
 }
 
 #en #contents .translator{
-  padding:95px 0 116px;
+  padding:0;
 }
 
 
@@ -1827,98 +1327,16 @@ a.blk::after {
 /* ========================================
     @media
 ========================================= */
-@media screen and (min-width:750px) {
+@media screen and (min-width:751px) {
   header .header-split .header-bottom .header-bottom-left nav.pc-menu ul li a {
     font-size: 1.143vw;
   }
 
-  .aboutpage-language #contents .font1{
-    /* font-size: 40px; */
-    font-size: 2.85714285vw;
 
-  }
 
-  .aboutpage-language #contents .font2{
-    /* font-size: 18px; */
-    font-size: 1.285714285vw;
-  }
-
-  .aboutpage-language #contents .font3{
-  /* font-size: 30px; */
-  font-size: 2.1428571428vw;
-
-  }
-
-  .aboutpage-language #contents .font4{
-    font-size: 1.71428571429vw;
-    /* font-size: 24px; */
-
-  }
-
-  .aboutpage-language #contents .font5{
-    font-size: 1.42857142857vw;
-    /* font-size: 20px; */
-  }
-
-  .aboutpage-language #contents .font6{
-    font-size: 3.57142857vw;
-    /* 50px */
-  }
-
-  .aboutpage-language #contents .font7{
-    font-size: 16px;
-    /* 50px */
-  }
 
 }
 
-@media screen and (max-width:1099px) and (min-width:751px) {
-  #en #contents .section01{
-    height: 432px;
-  }
-  .aboutpage-language #contents .inner{
-    max-width: 1000px;
-
-  }
-  
-  .aboutpage-language #contents .font1{
-    font-size: calc(40px*0.78); 
-    /* font-size: 3.63636363vw; */
-
-  }
-
-  .aboutpage-language #contents .font2{
-    font-size: calc(18px*0.78); 
-    /* font-size: 1.63636363vw; */
-  }
-
-  .aboutpage-language #contents .font3{
-  font-size: calc(30px*0.78); 
-  /* font-size: 2.7272727272vw; */
-
-  }
-
-  .aboutpage-language #contents .font4{
-    /* font-size: 2.181818181vw; */
-    font-size: calc(24px*0.78); 
-
-  }
-
-  .aboutpage-language #contents .font5{
-    /* font-size: 1.818181818vw; */
-    font-size: calc(20px*0.78); 
-  }
-
-  .aboutpage-language #contents .font6{
-    /* font-size: 4.54545454545vw; */
-    font-size: calc(50px*0.78); 
-  }
-
-  .aboutpage-language #contents .font7{
-    font-size: 16px;
-  }
-
-}
 
 @media screen and (min-width:751px) {
   #top, #about ,.aboutpage-language {
@@ -1949,9 +1367,7 @@ a.blk::after {
     display: none;
   }
 
-  #top #contents .sp-blog {
-    display: none;
-  }
+  
 
   footer .footer-inner div:nth-child(3) {
     order: 1;
@@ -1989,24 +1405,12 @@ a.blk::after {
   footer .footer-inner .footer-nav .sp-footer-nav {
     display: none;
   }
-
-  .sp-img{
-    display: none;
-  }
-
-  .pc-img{
-    display: block;
-  }
 }
 
 /* ========================================
     media
 ========================================= */
-@media screen and (max-width:1300px) {
-  #top #contents .instructor h3 {
-    font-size: 3.1vw;
-  }
-}
+
 
 @media screen and (min-width:1100px) {
   header .header-split .header-bottom nav.pc-menu {
@@ -2104,41 +1508,6 @@ a.blk::after {
     border-right: 2px solid #fff;
   }
 
-  /* header .header-split .header-bottom .header-bottom-left a.sp-menu-button span{
-    display: block;
-    position: absolute;
-    width: 60px;
-    height: 6px;
-    background: #fff;
-  }
-
-  header .header-split .header-bottom .header-bottom-left a.sp-menu-button span.open:nth-child(1){
-    position: absolute;
-    top: 28px;
-    right: 10px;
-  }
-
-  header .header-split .header-bottom .header-bottom-left a.sp-menu-button span.open:nth-child(2){
-    position: absolute;
-    top: 42px;
-    right: 10px;
-  }
-
-  header .header-split .header-bottom .header-bottom-left a.sp-menu-button span.close:nth-child(1){
-    position: absolute;
-    top: 40px;
-    right: 10px;
-    transform: rotate(45deg);
-    transition: 0.2s;
-  }
-
-  header .header-split .header-bottom .header-bottom-left a.sp-menu-button span.close:nth-child(2){
-    position: absolute;
-    top: 40px;
-    right: 10px;
-    transform: rotate(-45deg);
-    transition: 0.2s;
-  } */
   header .header-split .header-bottom .header-bottom-left a.sp-menu-button {
     position: absolute;
     top: 50px;
@@ -2206,41 +1575,12 @@ a.blk::after {
     font-size: 4vw;
   }
 
-  #top #contents .hero {
-    margin-bottom: 38%;
-  }
-
-  #top #contents .hero h1 {
-    font-size: 2.133vw;
-  }
 
 .center p {
     font-size: 3.2vw;
   }
 
-  #top #contents .the-school h3, .instructor h3 {
-    font-size: 5.333vw;
-  }
 
-  #top #contents .the-school {
-    background: url(/images/sp-school-bg.png)no-repeat center top;
-  }
-
-  #top #contents .instructor {
-    height: auto;
-    background: url(/images/sp-instructor-bg.png)no-repeat center top;
-    background-size: cover;
-  }
-
-  #top #contents .alum h3, .course .inner h3 {
-    font-size: 3.8vw;
-  }
-
-  #top .inner {
-    display: block;
-    margin: 0 16.26%;
-    justify-content: unset;
-  }
 
   .common-inner{
     display: block;
@@ -2248,88 +1588,6 @@ a.blk::after {
     justify-content: unset;
   }
 
-
-  #top #contents .alum {
-    padding: 0 1.33%;
-  }
-
-  #top #contents .alum .inner {
-    margin: 0;
-    display: inline-flex;
-  }
-
-  #top #contents .course {
-    padding: 40px 0 40px 0;
-  }
-
-  #top #contents .course .inner h3 {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  #top #contents .videos .inner {
-    margin: 0 0 29px 0;
-  }
-
-  #top #contents .videos .inner .video {
-    width: 46.93%;
-  }
-
-  #top #contents .videos .inner .video3 {
-    display: none;
-  }
-
-  #top #contents .blog .inner {
-    display: none;
-  }
-
-  #top #contents .sp-blog {
-    display: flex;
-    margin: 0 1.1426%;
-    justify-content: space-between;
-  }
-
-  #top #contents .blog .sp-blog .article {
-    width: 49%;
-  }
-
-  #top #contents .access .inner {
-    margin: 0 7.6%;
-  }
-
-  #top #contents .access .inner .access-description {
-    width: 100%;
-  }
-
-  #top #contents .access .inner .access-description.osaka {
-    margin-bottom: 70px;
-  }
-
-  #top #contents .access .inner .access-description .access-title h2 {
-    font-size: 4vw;
-  }
-
-  #top #contents .access .inner .access-description .access-title p {
-    font-size: 3.2vw;
-  }
-
-  #top #contents .access .inner .access-description .access-text {
-    font-size: 3.4666vw;
-  }
-
-  #top #contents .access .inner .access-description .gmap-btn {
-    display: inline-block;
-    z-index: 11;
-    position: relative;
-    width: 40.93%;
-    height: auto;
-    padding-right: 8%;
-    border-radius: 4px;
-    background: #555 url(/images/gmap-btn-arrow.png)no-repeat right 10% center/6%;
-    line-height: 2.4;
-    text-align: center;
-    font-size: 4vw;
-  }
 
   .common .contact-list {
     padding: 151px 0 40px 0;
@@ -2481,114 +1739,6 @@ a.blk::after {
     display: none;
   }
 
-  #about .section .description {
-    display: block;
-    float: unset;
-    width: 100%;
-    padding: 39px 20px 85px;
-    /* line-height: 1.66; */
-  }
-
-  #about .section:nth-child(even) .description {
-    display: block;
-    float: unset;
-    width: 100%;
-    padding: 25px 20px 100px;
-    /* line-height: 1.66; */
-  }
-
-  #about .section .description h2 {
-    margin-bottom: 18px;
-    text-align: center;
-    font-size: 6.666vw;
-  }
-
-  #about .section .description p {
-    font-size: 3.72vw;
-    font-weight: 600;
-  }
-
-  #about .section .img, #about .section:nth-child(even) .img {
-    display: block;
-    float: unset;
-    width: 100%;
-  }
-
-  #about .section .img img, #about .section:nth-child(even) .img img {
-    width: 100%;
-  }
-
-  #about .section {
-    width: 100%;
-    height: auto;
-  }
-
-  #about .stay {
-    padding: 12px 20px 40px;
-    text-align: center;
-  }
-
-  #about .stay h2 {
-    margin-bottom: 33px;
-    font-size: 6.666vw;
-  }
-
-  #about .stay p.stay-text {
-    margin-bottom: 82px;
-  }
-
-  #about .stay p {
-    margin-bottom: 20px;
-    text-align: left;
-    font-size: 3.7333333vw;
-  }
-
-  #about .stay .stay-img {
-    display: inline-block;
-    float: unset;
-    margin-right: 0;
-    margin-bottom: 18px;
-    width: 70.66666%;
-  }
-
-  #about .stay .stay-caption {
-    margin-bottom: 39px;
-    text-align: left;
-  }
-
-  #about .stay .stay-caption p span.stay-caption-text1 {
-    font-size: 5.3333vw;
-  }
-
-  #about .stay .stay-caption table tr td {
-    font-size: 4vw;
-  }
-
-  #about .stay .stay-caption table tr td.td-detail {
-    display: inline-block;
-    margin-left: 85px;
-    font-weight: normal;
-  }
-
-  #about #contents .media h3 {
-    margin-bottom: 40px;
-    padding: 0px 0 58px 0;
-    font-size: 7.2vw;
-    line-height: 1.4;
-  }
-
-  #about .appeared {
-    margin: 0 20px
-  }
-
-  #about #contents .media-appear .genre-title {
-    margin-bottom: 30px;
-    font-size: 5.3333vw;
-  }
-
-  #about #contents .media-appear .appeared p {
-    font-size: 3.73333333vw;
-  }
 }
 
 @media screen and (max-width:500px) {
@@ -2603,18 +1753,11 @@ a.blk::after {
 
   footer .contact-and-social-account .contact .contact-btn span a {
     padding: 15px 0 13px 30px;
-  }
+  }}
 
   @media screen and (max-width:400px) {
     header .header-split .header-bottom .header-bottom-left .sp-menu-button img {
       width: 60%
     }
 
-    #top #contents .hero {
-      padding: 0 20px;
-    }
-
-    #top #contents .hero .hero-title-img {
-      margin-bottom: 100px;
-    }
   }
