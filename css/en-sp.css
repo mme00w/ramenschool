@@ -1,12 +1,20 @@
 @charset "UTF-8";
+.aboutpage-language .space{
+  display: block;
+}
+
+.aboutpage-language #contents .txt-wht{
+  color: #fff;
+}
 
 .pc-img{
     display: none;
 }
 
 .sp-img{
-    display: block;
+    display: inline-block;
 }
+
 
 .aboutpage-language #contents .font1{
     /* font-size: calc(40px*0.78);  */
@@ -39,14 +47,56 @@
     /* font-size: calc(20px*0.78);  */
   }
 
-  .aboutpage-language #contents .font6{
+  .aboutpage-language #contents .font7{
+    font-size: 16px;
+  }
+
+  .aboutpage-language #contents .sp-txt-1{
     font-size: 6.6666666vw;
     /* font-size: calc(50px*0.78);  */
   }
 
-  .aboutpage-language #contents .font7{
-    font-size: 16px;
+  .aboutpage-language #contents .sp-txt-2{
+    font-size: 2.666666666vw;
+    /* font-size: calc(20px*0.78);  */
   }
+
+  .aboutpage-language #contents .sp-txt-3{
+    font-size: 6.4vw;
+    /* 48px */
+  }
+
+  .aboutpage-language #contents .sp-txt-4{
+    font-size: 4vw;
+    /* 30px */
+  }
+
+  .aboutpage-language #contents .sp-txt-5{
+    font-size: 3.46666666667vw;
+    /*  26px*/
+  }
+
+  .aboutpage-language #contents .sp-txt-6{
+    font-size: 2.133333333vw;
+    /* 16px */
+  }
+
+  .aboutpage-language #contents .sp-txt-7{
+    font-size: 5.54666666667vw;
+    /* 41.6px */
+  }
+
+  .aboutpage-language #contents .sp-txt-8{
+    font-size: 2.666666666vw;
+    /* font-size: calc(20px*0.78);  */
+  }
+
+  .aboutpage-language #contents .sp-txt-9{
+    font-size: 3.2vw;
+    /* font-size: 24px;  */
+  }
+
+
 
 #top, #about ,.aboutpage-language{
   position: relative;
@@ -508,14 +558,14 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 .aboutpage-language .hero {
   position: relative;
   width: 100%;
-  height: 475px;
+  height: 500px;
   background: url(/images/about/hero-bg.png) no-repeat center center;
   background-size: cover;
   text-align: center;
 }
 
 .aboutpage-language .hero h1 {
-  padding: 214px 0 133px 0;
+  padding: 239px 0 128px 0;
 }
 
 .aboutpage-language .menu-path{
@@ -525,7 +575,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   left: 0;
   width: 100%;
   height: 60px;
-  padding: 18px 35px;
+  padding: 8px 35px;
   background-color: rgba(255, 255, 255, 0.3);
   text-align: left;
 }
@@ -554,13 +604,13 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 
 .aboutpage-language #contents .inner{
     width: 100%;
-    padding: 0 10px;
+    padding: 0 3%;
   margin:0 auto;
 }
 
-.aboutpage-language #contents .translator .inner .txt-wht{
+/* .aboutpage-language #contents .translator .inner .txt-wht{
   color: #fff;
-}
+} */
 
 .aboutpage-language #contents .sub-hero{
   text-align: center;
@@ -591,15 +641,15 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 .aboutpage-language #contents .sub-hero .sp-img{
   display: inline-block;
   /* margin-bottom: 54px; */
-  margin-bottom: 6.7%;
+  margin-bottom: 3%;
 
 }
 
 .aboutpage-language #contents .sub-hero p{
   text-align: left;
   /* font-size: 18px; */
-  padding: 0.9%;
-  line-height: 1.6;
+  padding: 2.9%;
+  line-height: 1.75;
 }
 
 .aboutpage-language #contents .section{
@@ -623,7 +673,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 
 .aboutpage-language #contents .section01{
   background-color: #fdefee;
-  margin-bottom: 40px;
+  padding-bottom: 8%;
 }
 
 
@@ -632,7 +682,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 #en #contents .section01 .description{
-  padding: 6% 3%;
+  padding: 3.5% 3% 6%;
 }
 
 .aboutpage-language #contents .section01 .description .font1{
@@ -640,7 +690,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 #en #contents .section01 .description .font1{
-    margin-bottom: 5.5%;
+    margin-bottom: 5%;
 
 }
 
@@ -658,32 +708,30 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   line-height: 1.7;
 }
 
-
-.aboutpage-language #contents .section02 .img{
-  float: left;
-}
-
-.aboutpage-language #contents .section03 .img{
-  float: left;
+.aboutpage-language #contents .section03{
+  padding-bottom:13%;
 }
 
 .aboutpage-language #contents .section03 .description{
-  float: right;
+  /* float: right; */
   padding:77px 0 0 44px;
   text-align: center;
 
 }
 
 #en #contents .section03 .description{
-  padding:5% 1.4% 0 3.14%;
+  margin:0 3.5%;
+  padding: 9% 6.3% 12%;
+  background-color: #fdefee;
 }
 
-.aboutpage-language #contents .section02 .description h2{
-  margin-bottom: 6.27%;
+.aboutpage-language #contents .section02 .description .sp-txt-1{
+  margin-bottom: 3.3%;
+  line-height: 1.2;
 }
 
-.aboutpage-language #contents .section03 .description h2{
-  margin-bottom: 80px;
+#en #contents .section03 .description br{
+  display: none;
 }
 
 #en #contents .section03 .description h2{
@@ -693,7 +741,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 
 .aboutpage-language #contents .section .description img{
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 3.5%;
 }
 
 .aboutpage-language #contents .section .description .font5{
@@ -706,14 +754,15 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 #en #contents .ramen-about{
-    padding: 8% 1.2%;
+  padding: 7% 1.2% 2%;
 }
 
 .aboutpage-language #contents .ramen-about h2{
-  margin-bottom: 40px;
+  margin-bottom: 2%;
 }
 
 #en #contents .ramen-about h2{
+  line-height: 1.2;
     text-align: center;
 }
 
@@ -726,7 +775,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 #en #contents .center {
-  margin-bottom: 60px;
+  margin-bottom: 18%;
 }
 
 #cn #contents .center p{
@@ -736,7 +785,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 #en #contents .trial-lesson{
-  padding: 40px 0 55px;
+  padding: 40px 10px 55px;
 }
 
 .aboutpage-language #contents .trial-lesson{
@@ -760,8 +809,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   font-size: 3.733333333vw;
 }
 
-#en #contents .trial-lesson .font1 {
-  font-size: 6.6666666vw;
+#en #contents .trial-lesson .sp-txt-1 {
   text-align:center;
 }
 
@@ -772,7 +820,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 
 
 .aboutpage-language #contents .stay{
-  margin-bottom: 78px;
+  /* margin-bottom: 78px; */
   background-color: #fdefee;
   overflow: hidden;
 }
@@ -821,17 +869,16 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 .aboutpage-language #contents .translator{
   width: 100%;
   padding:111px 0 238px;
-  background:url(/images/cn/02.png) no-repeat center center;
+  background:url(/images/en/sp/background02.png) no-repeat center center;
+  background-size: cover;
 
 }
 
 #en #contents .translator{
-  padding:0;
+  padding: 10% 0 14.9%;
 }
 
-
-
-.aboutpage-language #contents .translator h2{
+.aboutpage-language #contents .translator .sp-txt-1{
   margin-bottom: 42px;
   text-align: center;
 }
@@ -840,8 +887,19 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   line-height: 1.7;
 }
 
+.aboutpage-language .sp-txt-1{
+  font-size: 6.6666666vw;
+/* 50px */
+}
+
+.aboutpage-language #contents .support .sp-txt-1{
+  line-height: 1.2;
+}
+
+
+
 .aboutpage-language #contents .support{
-  padding:60px 0 20px 0;
+  padding: 9% 3% 2.8%;
 }
 
 .aboutpage-language #contents .support h2{
@@ -858,21 +916,21 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 
 .aboutpage-language #contents .course1{
   width: 100%;
-  height: 550px;
+  /* height: 550px; */
   padding-top: 70px;
-  background:url(/images/cn/03.png) no-repeat center center;
+  background:url(/images/en/sp/background01.png) no-repeat center center;
   background-size: cover;
   overflow:hidden;
 }
 
 #en #contents .course1{
-  padding-top: 47px;
+  padding: 7% 0 2%;
 
 }
 
-.aboutpage-language #contents .course1 .inner .txt-wht{
+/* .aboutpage-language #contents .course1 .inner .txt-wht{
   color: #fff;
-}
+} */
 
 #en #contents .course1 h2{
   margin-bottom: 16px;
@@ -891,7 +949,8 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 #en #contents .course1 .inner ul{
-  margin-top:32px;
+  margin-top:6%;
+  padding:0 10%;
 
 }
 
@@ -900,11 +959,10 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 .aboutpage-language #contents .course1 .inner li.plan{
-  float: left;
+  float: unset;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 49.0909090%;
+  width: 96.090909%;
   height: 65px;
   margin-bottom: 15px;
   padding:10px 20px 10px 72px;
@@ -912,23 +970,19 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   background-color:#c2312b;
 }
 
-
-.aboutpage-language #contents .course1 .inner li.plan h3{
-  font-size: 26px;
-}
-
 .aboutpage-language #contents .course1 .inner li.plan:nth-child(even){
-  float: right;
+  float: unset;
 }
 
 .aboutpage-language #contents .course1 .inner li.plan .plan-cost{
-  width: 65%;
+  width: 72%;
   padding: 7px 12px;
   background-color:#FFF;
+  font-weight: bold;
 }
 
-#en #contents .course1 .inner li.plan .plan-cost{
-  font-weight: bold;
+.aboutpage-language #contents .course1 .inner li.plan .plan-cost .sp-txt-6{
+  line-height: 1.125;
 }
 
 .aboutpage-language #contents .teacher{
@@ -938,7 +992,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 #en #contents .teacher{
-  padding-top: 88px;
+  padding-top: 9%;
 
 }
 
@@ -959,12 +1013,14 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 #en #contents .teacher .center-items p{
-  margin-bottom: 19px;
+  margin-bottom: 4.5%;
+  line-height: 1.2;
+  font-weight: 100;
 }
 
-.aboutpage-language #contents .teacher .center-items img{
-  display: inline-block;
+.aboutpage-language #contents .teacher .center-items .sp-img{
   margin-bottom: 25px;
+  display: inline-block;
 }
 
 #en #contents .teacher .center-items img{
@@ -979,12 +1035,19 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 .aboutpage-language #contents .teacher ul li{
   width: 100%;
   margin-bottom: 40px;
+  text-align: center;
   overflow: hidden;
 }
 
+.aboutpage-language #contents .teacher ul li .position{
+  text-align: center;
+}
+
 .aboutpage-language #contents .teacher ul li .teacher-img{
-  float: left;
-  width: 38%;
+  display: inline-block;
+  margin-bottom: 4.5%;
+  width: 100%;
+
 }
 
 .aboutpage-language #contents .teacher ul li .teacher-img img{
@@ -992,20 +1055,26 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 .aboutpage-language #contents .teacher ul li .about-teacher{
-  float: right;
-  width: 62%;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
 }
 
 .aboutpage-language #contents .teacher ul li .about-teacher h3{
   margin-bottom: 28px;
 }
 
-#en #contents .teacher ul li .about-teacher h3{
+#en #contents .teacher ul li .about-teacher .sp-txt-1{
   margin-bottom: 7px;
+  text-align: center;
 }
 
-.aboutpage-language #contents .teacher ul li .about-teacher p{
+.aboutpage-language #contents .teacher ul li .about-teacher .font2{
   line-height: 1.7;
+}
+
+.aboutpage-language #contents .teacher ul li .about-teacher .font2 br{
+  display: none;
 }
 
 .aboutpage-language #contents .teacher ul li .about-teacher p.position{
@@ -1017,21 +1086,24 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 #en #contents .section02{
-  height: 590px;
+  /* height: 590px; */
+  margin-bottom: 19%;
+  text-align: center;
+  
 }
 
-.aboutpage-language #contents .section02,.aboutpage-language #contents .section03{
+.aboutpage-language #contents .section02{
   background-color: #fdefee;
 }
 
 .aboutpage-language #contents .section02 .description{
-  float: left;
+  /* float: left; */
   padding: 90px 44px 0 52px;
 
 }
 
 #en #contents .section02 .description{
-  padding: 3.8% 3.45% 0 3.27%;
+  padding: 7% 1% 0;
 }
 
 .aboutpage-language #contents .section02 .description .font4{
@@ -1039,7 +1111,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 #en #contents .section02 .description .font4{
-  margin-bottom:24px;
+  margin-bottom:5%;
   line-height: 1.3;
 }
 
@@ -1060,10 +1132,12 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 #en #contents .section02 .description .font2{
   line-height: 1.7;
   margin-left: 14px;
+  text-align: left;
 }
 
 .aboutpage-language #contents .section02 .img{
-  float: right;
+  /* float: right; */
+  display: inline-block;
 }
 
 #en #contents .section02 .img{
@@ -1075,38 +1149,41 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   object-fit: cover;
 }
 
-.aboutpage-language #contents .section02 .price{
-  width: 60.857142%;
-  margin-top: 56px;
-  padding: 14px 20px;
+.aboutpage-language #contents .section02 .font2 br{
+  display: none;
+}
+
+.aboutpage-language #contents .price{
+  display: inline-block;
+  width: 89%;
+  margin: 7% 0 9%;
   background-color: #c2312b;
   text-align: center;
   border-radius: 4px;
+  padding: 14px 28px 30px;
 }
 
-#en #contents .section02 .price {
-  width: 65.857142%;
-  margin: 7.2% 0 0 2.8%;
-  padding: 4px 20px 20px;
+.aboutpage-language #contents .trial-course .price{
+  width: 85%;
+  margin: 0;
 }
 
-#en #contents .section02 .price .plan-cost{
+#en #contents .price .plan-cost{
   width: 100%;
-
 }
 
-.aboutpage-language #contents .section02 .price h3,.aboutpage-language #contents .trial-course .price h3{
-  margin-bottom: 5px;
+
+#en #contents .price h3{
   color: #fff;
-  font-size: 28px;
-}
-
-#en #contents .section02 .price h3{
   text-align: left;
 }
 
+#en #contents .trial-course .price h3{
 
-.aboutpage-language #contents .section02 .price .plan-cost,.aboutpage-language #contents .trial-course .price .plan-cost{
+  text-align: center;
+}
+
+.aboutpage-language #contents .price .plan-cost{
   display: inline-block;
   width :90%;
   padding:5px 13px;
@@ -1114,40 +1191,45 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   text-align: left;
 }
 
-  #en #contents .section02 .price .plan-cost{
+  #en #contents .price .plan-cost{
     width: 100%;
-    padding: 5px 0 5px 13px;
+    padding: 9px 4px 9px 13px;
   }
 
-  #en #contents .trial-course .price .plan-cost{
-  width: 92%;
-  padding: 5px 0 5px 13px;
+  #en #contents .price .plan-cost{
+  width: 99%;
+  padding: 5px 0 14px 13px;
 }
 
-.aboutpage-language #contents .section02 .price .plan-cost p,.aboutpage-language #contents .trial-course .price p{
-  font-weight: normal;
+#en #contents .trial-course .price .plan-cost{
+  width: 91%;
 }
 
-#en #contents .section02 .price .plan-cost p,#en #contents .trial-course .price p{
+#en #contents .price .plan-cost p{
+  font-size:3.4133333333vw;
   font-weight: bold;
 }
 
+#en #contents .price .plan-cost p span{
+  font-size: 4.26666666vw;
+}
+
 .aboutpage-language #contents .trial-course{
-  padding:67px 0 93px;
+  padding:67px 0 50px;
   text-align: center;
 }
 
 #en #contents .trial-course{
-  padding:51px 0 70px;
+  padding-top:4%;
 
 }
 
 .aboutpage-language #contents .trial-course p.trial-course-about{
   display: inline-block;
-  width: 45.454545454%;
-  height: 80px;
-  margin-bottom: 40px;
-  padding:20px 0;
+  width: 91%;
+  height: 127px;
+  margin-bottom: 7%;
+  padding:25px 0;
   background-color: #eee;
   text-align: center;
 }
@@ -1156,44 +1238,54 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom: 42px;
 }
 
-#en #contents .trial-course h2{
-  margin-bottom: 20px;
+#en #contents .trial-course .sp-txt-1{
+  margin-bottom: 6%;
+  line-height: 1.2;
+}
+
+.aboutpage-language #contents .trial-course .trial-course-list{
+  margin-bottom: 1%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.aboutpage-language #contents .trial-course .trial-course-list .about-box{
+  display: inline-block;
+  width: 70%;
+  height: 400px;
+  margin-bottom:5%;
+  padding: 22px 38px 0;
+  border: 5px solid #ec635d;
+  line-height: 1.7;
+  text-align: left;
+
 }
 
 .aboutpage-language #contents .trial-course .trial-course-list .about-box h3{
-  margin-bottom: 8px;
+  margin-bottom: 1%;
 
 }
 
 .aboutpage-language #contents .trial-course .trial-course-list .about-box ul li{
-  margin-bottom: 20px;
+  margin-bottom: 5%;
+  line-height: 1.4;
 
 }
 
-.aboutpage-language #contents .trial-course .trial-course-list{
-  margin-bottom: 50px;
-  overflow: hidden;
-  text-align: left;
-}
-
-.aboutpage-language #contents .trial-course .trial-course-list .about-box{
-  width: 48.181818%;
-  height: 400px;
-  padding: 22px 38px 0;
-  border: 5px solid #ec635d;
-  line-height: 1.7;
+.aboutpage-language #contents .trial-course .trial-course-list .about-box br{
+  display:none;
 
 }
 
 .aboutpage-language #contents .trial-course .trial-course-list .about1{
-  float: left;
+  /* float: left; */
 }
 
 .aboutpage-language #contents .trial-course .trial-course-list .about2{
-  float: right;
+  /* float: right; */
 }
 
-.aboutpage-language #contents .trial-course .price{
+/* .aboutpage-language #contents .trial-course .price{
   display: inline-block;
   width: 36.3636363%;
   padding:16px 20px;
@@ -1204,7 +1296,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 
 #en #contents .trial-course .price{
   padding:6px 20px 16px;
-}
+} */
 
 /* .aboutpage-language #contents  */
 
@@ -1223,6 +1315,7 @@ english
 ========================================= */
 
 #en #contents .course1 .inner li.plan{
+  margin-bottom: 4%;
   padding:10px 20px 10px 32px;
 }
 
@@ -1433,8 +1526,8 @@ a.blk::after {
   }
 
   header .header-split .header-above {
-    height: 62px;
-    padding: 0 5px;
+    height: 52px;
+    padding: 18px 5px;
   }
 
   header .header-split .header-above p {

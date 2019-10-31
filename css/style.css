@@ -1733,6 +1733,10 @@ english
 #en #contents .plan-cost{
   line-height: 1;
 }
+
+.aboutpage-language .space{
+  display: none;
+}
 /* =======================================
 
 common
@@ -1921,6 +1925,14 @@ a.blk::after {
 }
 
 @media screen and (min-width:751px) {
+  .sp-img{
+    display: none;
+  }
+  
+  .pc-img{
+    display: block;
+  }
+  
   #top, #about ,.aboutpage-language {
     min-width: 1100px;
   }
@@ -1990,13 +2002,7 @@ a.blk::after {
     display: none;
   }
 
-  .sp-img{
-    display: none;
-  }
 
-  .pc-img{
-    display: block;
-  }
 }
 
 /* ========================================
