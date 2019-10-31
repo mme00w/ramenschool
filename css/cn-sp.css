@@ -1,7 +1,9 @@
 @charset "UTF-8";
-/* ========================================
-   common
-========================================= */
+#cn #contents *{
+  font-family:Heiti TC;
+
+}
+
 .aboutpage-language .space{
   display: block;
 }
@@ -18,7 +20,7 @@
     display: inline-block;
 }
 
-.aboutpage-language .section .img .sp-img,.banner .sp-img{
+.aboutpage-language .section .img img,.banner img{
   width: 100%;
 }
 
@@ -36,6 +38,7 @@
     /* 一旦28ｐｘ */
   }
   
+
   .aboutpage-language #contents .font3{
   /* font-size: calc(30px*0.78);  */
   font-size: 4vw;
@@ -104,7 +107,7 @@
 
 
 
-.aboutpage-language{
+#top, #about ,.aboutpage-language{
   position: relative;
   overflow: hidden;
   background-color: #eeeeee;
@@ -456,23 +459,19 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 
 .aboutpage-language #contents .inner{
     width: 100%;
-    padding: 0 3%;
+    padding: 6% 3%;
   margin:0 auto;
 }
-
-/* ========================================
-   .sub-hero
-========================================= */
 
 .aboutpage-language #contents .sub-hero{
   text-align: center;
 }
 
-#en #contents .sub-hero{
+.aboutpage-language #contents .sub-hero{
   padding: 78px 0 70px;
 }
 
-#en #contents .sub-hero h2{
+.aboutpage-language #contents .sub-hero h2{
  line-height: 1.2;
 }
 
@@ -500,9 +499,6 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   line-height: 1.75;
 }
 
-/* ========================================
-   .section  section01 
-========================================= */
 .aboutpage-language #contents .section{
   overflow: hidden;
 }
@@ -523,7 +519,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   padding-bottom: 8%;
 }
 
-#en #contents .section01 .description{
+.aboutpage-language #contents .section01 .description{
   padding: 3.5% 3% 6%;
 }
 
@@ -531,18 +527,18 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom: 46px;
 }
 
-#en #contents .section01 .description .font1{
+.aboutpage-language #contents .section01 .description .font1{
     margin-bottom: 5%;
 
 }
 
 
-#en #contents .section01 .description .font1{
+.aboutpage-language #contents .section01 .description .font1{
     text-align: center;
   line-height: 1.3;
 }
 
-#en #contents .section01 .description .font1 br{
+.aboutpage-language #contents .section01 .description .font1 br{
     display: none;
 }
 
@@ -558,20 +554,25 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   /* float: right; */
   padding:77px 0 0 44px;
   text-align: center;
-
-}
-
-#en #contents .section03 .description{
   margin:0 3.5%;
   padding: 9% 6.3% 12%;
   background-color: #fdefee;
 }
 
-#en #contents .section03 .description br{
+.aboutpage-language #contents .img{
+  margin-bottom:3%;
+}
+
+.aboutpage-language #contents .section02 .description .sp-txt-1{
+  margin-bottom: 3.3%;
+  line-height: 1.2;
+}
+
+.aboutpage-language #contents .section03 .description br{
   display: none;
 }
 
-#en #contents .section03 .description h2{
+.aboutpage-language #contents .section03 .description h2{
   margin-bottom: 28px;
   line-height: 1.3;
 }
@@ -586,15 +587,11 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   line-height: 1.7;
 }
 
-/* ========================================
-   .ramen-about
-========================================= */
-
 .aboutpage-language #contents .ramen-about{
-  padding: 36px 0 68px;
+  padding: 36px 10px 68px;
 }
 
-#en #contents .ramen-about{
+.aboutpage-language #contents .ramen-about{
   padding: 7% 1.2% 2%;
 }
 
@@ -602,7 +599,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom: 2%;
 }
 
-#en #contents .ramen-about h2{
+.aboutpage-language #contents .ramen-about h2{
   line-height: 1.2;
     text-align: center;
 }
@@ -615,15 +612,11 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom: 68px;
 }
 
-/* ========================================
-   .trial-lesson
-========================================= */
-
-#en #contents .center {
+.aboutpage-language #contents .center {
   margin-bottom: 18%;
 }
 
-#en #contents .trial-lesson{
+.aboutpage-language #contents .trial-lesson{
   padding: 40px 10px 55px;
 }
 
@@ -635,15 +628,15 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom: 33px;
 }
 
-#en #contents .trial-lesson h2{
+.aboutpage-language #contents .trial-lesson h2{
   margin-bottom: 2%;
 }
 
-#en #contents .trial-lesson h3{
+.aboutpage-language #contents .trial-lesson h3{
   font-size: 3.733333333vw;
 }
 
-#en #contents .trial-lesson .sp-txt-1 {
+.aboutpage-language #contents .trial-lesson .sp-txt-1 {
   text-align:center;
 }
 
@@ -652,16 +645,14 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 
 }
 
-/* ========================================
-   .section  stay
-========================================= */
+
 .aboutpage-language #contents .stay{
   /* margin-bottom: 78px; */
   background-color: #fdefee;
   overflow: hidden;
 }
 
-#en #contents .stay{
+.aboutpage-language #contents .stay{
     padding-bottom: 8%;
     margin-bottom: 0;
   background-color: #fdefee;
@@ -683,7 +674,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 }
 
 
-#en #contents .stay .stay-caption{
+.aboutpage-language #contents .stay .stay-caption{
   padding-top:5%;
 }
 
@@ -693,27 +684,24 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   font-size: 6.6666666vw;
 }
 
-#en #contents .stay .stay-caption h2{
+.aboutpage-language #contents .stay .stay-caption h2{
   margin-bottom: 9px;
 }
 
-#en #contents .stay .stay-caption .font2{
+.aboutpage-language #contents .stay .stay-caption .font2{
   margin-bottom: 5%;
 }
 
-/* ========================================
-   .translator
-========================================= */
 
 .aboutpage-language #contents .translator{
   width: 100%;
-  padding:111px 0 238px;
+  padding-top:111px;
   background:url(/images/en/sp/background02.png) no-repeat center center;
   background-size: cover;
 
 }
 
-#en #contents .translator{
+.aboutpage-language #contents .translator{
   padding: 10% 0 14.9%;
 }
 
@@ -731,10 +719,6 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 /* 50px */
 }
 
-/* ========================================
-   .support
-========================================= */
-
 .aboutpage-language #contents .support .sp-txt-1{
   line-height: 1.2;
 }
@@ -749,17 +733,13 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom:38px;
 }
 
-#en #contents .support h2{
+.aboutpage-language#contents .support h2{
   margin-bottom:23px;
 }
 
 .aboutpage-language #contents .support p{
   margin-bottom: 54px;
 }
-
-/* ========================================
-   .course1
-========================================= */
 
 .aboutpage-language #contents .course1{
   width: 100%;
@@ -770,12 +750,12 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   overflow:hidden;
 }
 
-#en #contents .course1{
+.aboutpage-language #contents .course1{
   padding: 7% 0 2%;
 
 }
 
-#en #contents .course1 h2{
+.aboutpage-language #contents .course1 h2{
   margin-bottom: 16px;
 }
 
@@ -791,7 +771,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-top:15px;
 }
 
-#en #contents .course1 .inner ul{
+.aboutpage-language #contents .course1 .inner ul{
   margin-top:6%;
   padding:0 10%;
 
@@ -828,17 +808,13 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   line-height: 1.125;
 }
 
-/* ========================================
-   .teacher
-========================================= */
-
 .aboutpage-language #contents .teacher{
   margin-bottom: 30px;
   padding-top: 100px;
   overflow: hidden;
 }
 
-#en #contents .teacher{
+.aboutpage-language#contents .teacher{
   padding-top: 9%;
 
 }
@@ -859,7 +835,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom: 24px;
 }
 
-#en #contents .teacher .center-items p{
+.aboutpage-language #contents .teacher .center-items p{
   margin-bottom: 4.5%;
   line-height: 1.2;
   font-weight: 100;
@@ -870,7 +846,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   display: inline-block;
 }
 
-#en #contents .teacher .center-items img{
+.aboutpage-language #contents .teacher .center-items img{
   margin-bottom: 16px;
 }
 
@@ -911,7 +887,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom: 28px;
 }
 
-#en #contents .teacher ul li .about-teacher .sp-txt-1{
+.aboutpage-language #contents .teacher ul li .about-teacher .sp-txt-1{
   margin-bottom: 7px;
   text-align: center;
 }
@@ -928,38 +904,36 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom: 38px;
 }
 
-#en #contents .teacher ul li .about-teacher p.position{
+.aboutpage-language #contents .teacher ul li .about-teacher p.position{
   margin-bottom: 25px;
 }
 
-#en #contents .section02{
+.aboutpage-language #contents .section02{
   /* height: 590px; */
   margin-bottom: 19%;
   text-align: center;
   
 }
 
-/* ========================================
-   .section  section02
-========================================= */
 .aboutpage-language #contents .section02{
   background-color: #fdefee;
 }
 
 .aboutpage-language #contents .section02 .description{
- padding: 7% 1% 0;
+  /* float: left; */
+  padding: 90px 44px 0 52px;
+
 }
 
-.aboutpage-language #contents .section02 .description .sp-txt-1{
-  margin-bottom: 3.3%;
-  line-height: 1.2;
+.aboutpage-language #contents .section02 .description{
+  padding: 7% 1% 0;
 }
 
 .aboutpage-language #contents .section02 .description .font4{
-  margin-bottom:56px;
+  margin-bottom:8%;
 }
 
-#en #contents .section02 .description .font4{
+.aboutpage-language #contents .section02 .description .font4{
   margin-bottom:5%;
   line-height: 1.3;
 }
@@ -970,7 +944,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom: 27px;
 }
 
-#en #contents .section02 .description .center-items img{
+.aboutpage-language #contents .section02 .description .center-items img{
   margin-bottom: 16px;
 }
 
@@ -978,7 +952,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   line-height: 1.7;
 }
 
-#en #contents .section02 .description .font2{
+.aboutpage-language #contents .section02 .description .font2{
   line-height: 1.7;
   margin-left: 14px;
   text-align: left;
@@ -989,11 +963,11 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   display: inline-block;
 }
 
-#en #contents .section02 .img{
+.aboutpage-language #contents .section02 .img{
   height: 100%;
 }
 
-#en #contents .section02 .img img{
+.aboutpage-language #contents .section02 .img img{
   height: 100%;
   object-fit: cover;
 }
@@ -1012,26 +986,22 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   padding: 14px 28px 30px;
 }
 
-/* ========================================
-   .trial-course
-========================================= */
-
 .aboutpage-language #contents .trial-course .price{
   width: 85%;
   margin: 0;
 }
 
-#en #contents .price .plan-cost{
+.aboutpage-language #contents .price .plan-cost{
   width: 100%;
 }
 
 
-#en #contents .price h3{
+.aboutpage-language #contents .price h3{
   color: #fff;
   text-align: left;
 }
 
-#en #contents .trial-course .price h3{
+.aboutpage-language #contents .trial-course .price h3{
 
   text-align: center;
 }
@@ -1044,26 +1014,26 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   text-align: left;
 }
 
-  #en #contents .price .plan-cost{
+.aboutpage-language #contents .price .plan-cost{
     width: 100%;
     padding: 9px 4px 9px 13px;
   }
 
-  #en #contents .price .plan-cost{
+.aboutpage-language #contents .price .plan-cost{
   width: 99%;
   padding: 5px 0 14px 13px;
 }
 
-#en #contents .trial-course .price .plan-cost{
+.aboutpage-language #contents .trial-course .price .plan-cost{
   width: 91%;
 }
 
-#en #contents .price .plan-cost p{
+.aboutpage-language #contents .price .plan-cost p{
   font-size:3.4133333333vw;
   font-weight: bold;
 }
 
-#en #contents .price .plan-cost p span{
+.aboutpage-language #contents .price .plan-cost p span{
   font-size: 4.26666666vw;
 }
 
@@ -1072,7 +1042,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   text-align: center;
 }
 
-#en #contents .trial-course{
+.aboutpage-language #contents .trial-course{
   padding-top:4%;
 
 }
@@ -1091,7 +1061,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   margin-bottom: 42px;
 }
 
-#en #contents .trial-course .sp-txt-1{
+.aboutpage-language #contents .trial-course .sp-txt-1{
   margin-bottom: 6%;
   line-height: 1.2;
 }
@@ -1138,19 +1108,19 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
 
 /* =======================================
 
-
+english
 ========================================= */
 
-#en #contents .course1 .inner li.plan{
+#contents .course1 .inner li.plan{
   margin-bottom: 4%;
   padding:10px 20px 10px 32px;
 }
 
-#en #contents .course1 .inner li.plan h3{
+#contents .course1 .inner li.plan h3{
   width: 50%;
 }
 
-#en #contents .plan-cost{
+#contents .plan-cost{
   line-height: 1;
 }
 /* =======================================
