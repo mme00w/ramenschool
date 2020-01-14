@@ -250,7 +250,7 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
   height: 577px;
   margin: 0 auto;
   margin-bottom: 23%;
-  background: url(/images/hero.png)no-repeat center center;
+  background: url(images/hero.png)no-repeat center center;
   background-size: cover;
   text-align: center;
 }
@@ -283,7 +283,7 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
 ========================================= */
 #top #contents .the-school {
   width: 100%;
-  background: url(/images/school-bg.png)no-repeat center top;
+  background: url(images/school-bg.png)no-repeat center top;
   background-size: cover;
   padding: 60px 0;
   text-align: center;
@@ -301,7 +301,7 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
 #top #contents .instructor {
   width: 100%;
   height: 433px;
-  background: url(/images/instructor-bg.png) no-repeat center top;
+  background: url(images/instructor-bg.png) no-repeat center top;
   background-size: contain;
   /* padding-top: 31.17%; */
   padding: 141px 0 0 0;
@@ -340,11 +340,11 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
 }
 
 #top #contents .course .inner h3 a:first-child {
-  background: url(/images/course01-bg.png) no-repeat center top;
+  background: url(images/course01-bg.png) no-repeat center top;
 }
 
 #top #contents .course .inner h3 a:last-child {
-  background: url(/images/course02-bg.png) no-repeat center top;
+  background: url(images/course02-bg.png) no-repeat center top;
 }
 
 /* ========================================
@@ -400,23 +400,23 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
 }
 
 #top #contents .voices .voice-slider .voice1 {
-  background: url(/images/voice1.png) no-repeat center center;
+  background: url(images/voice1.png) no-repeat center center;
 }
 
 #top #contents .voices .voice-slider .voice2 {
-  background: url(/images/voice1.png) no-repeat center center;
+  background: url(images/voice1.png) no-repeat center center;
 }
 
 #top #contents .voices .voice-slider .voice3 {
-  background: url(/images/voice1.png) no-repeat center center;
+  background: url(images/voice1.png) no-repeat center center;
 }
 
 #top #contents .voices .voice-slider .voice4 {
-  background: url(/images/voice1.png) no-repeat center center;
+  background: url(images/voice1.png) no-repeat center center;
 }
 
 #top #contents .voices .voice-slider .voice5 {
-  background: url(/images/voice1.png) no-repeat center center;
+  background: url(images/voice1.png) no-repeat center center;
 }
 
 /* ========================================
@@ -552,7 +552,7 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
   top: 7px;
   width: 20px;
   height: 19px;
-  background: #ec635d url(/images/tag.png)no-repeat left top;
+  background: #ec635d url(images/tag.png)no-repeat left top;
 }
 
 /* ========================================
@@ -610,7 +610,7 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
   margin-bottom: 33px;
   padding-right: 30px;
   border-radius: 4px;
-  background: #555 url(/images/gmap-btn-arrow.png)no-repeat right 20px center/6%;
+  background: #555 url(images/gmap-btn-arrow.png)no-repeat right 20px center/6%;
   line-height: 2.4;
   text-align: center;
 }
@@ -742,17 +742,17 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
 }
 
 .common .category-list ul.important-category li:first-child {
-  background: url(/images/ctg-school-bg.png) no-repeat center center;
+  background: url(images/ctg-school-bg.png) no-repeat center center;
   background-size: cover;
 }
 
 .common .category-list ul.important-category li:nth-child(2) {
-  background: url(/images/ctg-instructor-bg.png) no-repeat center center;
+  background: url(images/ctg-instructor-bg.png) no-repeat center center;
   background-size: cover;
 }
 
 .common .category-list ul.important-category li:last-child {
-  background: url(/images/ctg-course-bg.png) no-repeat center center;
+  background: url(images/ctg-course-bg.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -767,22 +767,22 @@ header .header-split .header-bottom .header-bottom-right .language ul li:first-c
 }
 
 .common .category-list ul.sub-category li:first-child {
-  background: url(/images/ctg-learn-bg.png) no-repeat center center;
+  background: url(images/ctg-learn-bg.png) no-repeat center center;
   background-size: cover;
 }
 
 .common .category-list ul.sub-category li:nth-child(2) {
-  background: url(/images/ctg-voice-bg.png) no-repeat center center;
+  background: url(images/ctg-voice-bg.png) no-repeat center center;
   background-size: cover;
 }
 
 .common .category-list ul.sub-category li:nth-child(3) {
-  background: url(/images/ctg-alum-bg.png) no-repeat center center;
+  background: url(images/ctg-alum-bg.png) no-repeat center center;
   background-size: cover;
 }
 
 .common .category-list ul.sub-category li:nth-child(4) {
-  background: url(/images/ctg-video-bg.png) no-repeat center center;
+  background: url(images/ctg-video-bg.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -862,7 +862,7 @@ footer .contact-and-social-account .contact .contact-btn span {
 footer .contact-and-social-account .contact .contact-btn span a {
   display: inline-block;
   padding: 15px 0 13px 40px;
-  background: url(/images/formedia.png)no-repeat left center;
+  background: url(images/formedia.png)no-repeat left center;
   font-weight: normal;
   color: #999;
 }
@@ -889,19 +889,19 @@ footer .social-account ul li a:hover {
 }
 
 footer .social-account ul li.youtube a:hover {
-  background: url("/images/footer-youtube.png")no-repeat left 0 center;
+  background: url("images/footer-youtube.png")no-repeat left 0 center;
 }
 
 footer .social-account ul li.ig a:hover {
-  background: url("/images/footer-ig.png")no-repeat left center;
+  background: url("images/footer-ig.png")no-repeat left center;
 }
 
 footer .social-account ul li.fb a:hover {
-  background: url("/images/footer-fb.png")no-repeat left center;
+  background: url("images/footer-fb.png")no-repeat left center;
 }
 
 footer .social-account ul li.twitter a:hover {
-  background: url("/images/footer-twitter.png")no-repeat left center;
+  background: url("images/footer-twitter.png")no-repeat left center;
 }
 
 footer .contact-and-social-account .social-account ul {
@@ -944,7 +944,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   position: relative;
   width: 100%;
   height: 475px;
-  background: url(/images/about/hero-bg.png) no-repeat center center;
+  background: url(images/about/hero-bg.png) no-repeat center center;
   background-size: cover;
   text-align: center;
 }
@@ -975,7 +975,7 @@ footer .footer-inner .footer-nav .sp-footer-nav ul:first-child {
   width: 100%;
   height: 700px;
   padding-top: 84px;
-  background: url(/images/about/sub-hero.png) no-repeat center center;
+  background: url(images/about/sub-hero.png) no-repeat center center;
   line-height: 1.2;
 }
 
@@ -1099,7 +1099,7 @@ width: 100%;
   width: 100%;
   height: auto;
   padding: 185px 0 0 0;
-  background: url(/images/about/media-bg.png)no-repeat center center;
+  background: url(images/about/media-bg.png)no-repeat center center;
   background-size: cover;
   text-align: center;
 }
@@ -1414,7 +1414,7 @@ width: 100%;
 .aboutpage-language #contents .translator{
   width: 100%;
   padding:111px 0 238px;
-  background:url(/images/cn/02.png) no-repeat center center;
+  background:url(images/cn/02.png) no-repeat center center;
 
 }
 
@@ -1453,7 +1453,7 @@ width: 100%;
   width: 100%;
   height: 550px;
   padding-top: 70px;
-  background:url(/images/cn/03.png) no-repeat center center;
+  background:url(images/cn/03.png) no-repeat center center;
   background-size: cover;
   overflow:hidden;
 }
@@ -2466,12 +2466,12 @@ a.blk::after {
   }
 
   #top #contents .the-school {
-    background: url(/images/sp-school-bg.png)no-repeat center top;
+    background: url(images/sp-school-bg.png)no-repeat center top;
   }
 
   #top #contents .instructor {
     height: auto;
-    background: url(/images/sp-instructor-bg.png)no-repeat center top;
+    background: url(images/sp-instructor-bg.png)no-repeat center top;
     background-size: cover;
   }
 
@@ -2568,7 +2568,7 @@ a.blk::after {
     height: auto;
     padding-right: 8%;
     border-radius: 4px;
-    background: #555 url(/images/gmap-btn-arrow.png)no-repeat right 10% center/6%;
+    background: #555 url(images/gmap-btn-arrow.png)no-repeat right 10% center/6%;
     line-height: 2.4;
     text-align: center;
     font-size: 4vw;
